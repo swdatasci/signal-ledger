@@ -26,11 +26,22 @@ from __future__ import annotations
 
 import os
 import subprocess
+import urllib.parse
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
 LEDGER_ROOT = Path("/home/rford/caelum/signal-ledger")
 LEDGER_FILE = LEDGER_ROOT / "ledger.md"
+
+# Pushover — credentials from env (set in ~/.bashrc as PUSHOVER_USER_KEY /
+# PUSHOVER_API_TOKEN). If either is missing, notifications degrade silently.
+PUSHOVER_URL = "https://api.pushover.net/1/messages.json"
+PUSHOVER_USER = os.environ.get("PUSHOVER_USER_KEY", "")
+PUSHOVER_TOKEN = os.environ.get("PUSHOVER_API_TOKEN", "")
+
+TWITTER_HANDLE = "@research_signal"
+LEDGER_PUBLIC_URL = "https://github.com/iodev/signal-ledger/blob/main/ledger.md"
 
 # Buffer for batched events (avoid one git commit per signal in a burst)
 _buffer: list[str] = []
@@ -53,8 +64,86 @@ def _run(cmd: list[str], cwd: Path, quiet: bool = True) -> tuple[int, str]:
         return 1, f"exception: {e}"
 
 
+def tweet_intent_url(text: str) -> str:
+    """Return a twitter.com/intent/tweet URL that pre-fills the compose window.
+    Sanctioned by X — no automation risk. User taps → X opens → user hits Post."""
+    return "https://twitter.com/intent/tweet?text=" + urllib.parse.quote(text)
+
+
+def _format_tweet(strategy: str, action: str, ticker: str, notes: str) -> str:
+    """Build a tweet under X's 280-char limit. Includes ledger URL if room."""
+    # Distinctive per-strategy prefix so subscribers can pattern-match:
+    prefix = {
+        "gov-contracts": "[SIGNAL] Gov-contracts",
+        "congress-dpi":  "[SIGNAL] Congress×DPI",
+    }.get(strategy, f"[SIGNAL] {strategy}")
+
+    core = f"{prefix} {action} {ticker} — {notes}"
+    tail = f"\n\nLedger: {LEDGER_PUBLIC_URL}\nNot investment advice."
+    # X limit is 280. Reserve room for the tail.
+    max_core = 280 - len(tail)
+    if len(core) > max_core:
+        core = core[:max_core - 3] + "..."
+    return core + tail
+
+
+def _pushover(title: str, message: str, url: str | None = None,
+              url_title: str = "Tap to compose tweet", priority: int = 0) -> bool:
+    """Send a single pushover notification. Returns True on success. Never raises.
+
+    priority: -2 (silent), -1 (quiet), 0 (default), 1 (high), 2 (emergency)."""
+    if not (PUSHOVER_USER and PUSHOVER_TOKEN):
+        return False
+    data = {
+        "token": PUSHOVER_TOKEN,
+        "user": PUSHOVER_USER,
+        "title": title,
+        "message": message,
+        "priority": str(priority),
+    }
+    if url:
+        data["url"] = url
+        data["url_title"] = url_title
+    try:
+        encoded = urllib.parse.urlencode(data).encode()
+        req = urllib.request.Request(PUSHOVER_URL, data=encoded, method="POST")
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            return resp.status == 200
+    except Exception as e:
+        print(f"[ledger] pushover failed: {e}")
+        return False
+
+
+def notify(strategy: str, action: str, ticker: str, notes: str = "",
+           *, is_test: bool = False) -> None:
+    """Fire-and-forget push notification with pre-composed tweet intent URL.
+    User taps notification → X compose opens pre-filled → user hits Post.
+    Never raises.
+
+    is_test=True marks the notification as [TEST] so it can't be confused with
+    a real trade. Real trades should always pass is_test=False (the default)."""
+    tweet_text = _format_tweet(strategy, action, ticker, notes)
+    intent = tweet_intent_url(tweet_text)
+    test_prefix = "[TEST] " if is_test else ""
+    test_note = " (SMOKE TEST — do not post)" if is_test else ""
+    _pushover(
+        title=f"{test_prefix}[{strategy}] {action} {ticker}",
+        message=f"{notes}{test_note}\n\nTap to compose tweet →",
+        url=intent if not is_test else None,  # no tap-URL on tests
+        url_title=f"Compose from {TWITTER_HANDLE}",
+        priority=1 if not is_test else 0,     # lower priority for tests
+    )
+
+
+if __name__ == "__main__":
+    # Any direct invocation of this module is a test by definition.
+    notify("test", "BUY", "TEST", "smoke test from ledger_writer.__main__",
+           is_test=True)
+    print("[ledger] test notification sent with [TEST] marker")
+
+
 def record(strategy: str, action: str, ticker: str, notes: str = "",
-           *, flush_now: bool = True) -> None:
+           *, flush_now: bool = True, push: bool = True) -> None:
     """Append one event to the ledger.
 
     - strategy: short strategy tag ("gov-contracts", "congress-dpi")
@@ -63,12 +152,18 @@ def record(strategy: str, action: str, ticker: str, notes: str = "",
     - notes: freeform, single-line context
     - flush_now: commit + push immediately. Set False when appending many
       rows in a burst; call flush() once at the end.
+    - push: send pushover notification with pre-composed tweet intent URL.
+      Only fires for BUY/SELL (skip SIGNAL/SKIP/ERROR to avoid notification
+      spam during dedup passes). Set explicitly True/False to override.
     """
     ts = _now_utc()
     line = f"{ts} | {strategy:15s} | {action:8s} | {ticker:6s} | {notes}"
     _buffer.append(line)
     if flush_now:
         flush()
+    # Pushover only for trade events (BUY/SELL). Everything else is bookkeeping.
+    if push and action.upper() in ("BUY", "SELL"):
+        notify(strategy, action, ticker, notes)
 
 
 def flush() -> None:
