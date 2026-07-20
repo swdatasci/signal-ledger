@@ -199,7 +199,7 @@ def _refresh_index() -> None:
     idx = (
         "---\ntitle: AI Consensus — index\n---\n\n"
         "# AI Consensus — daily predictions\n\n"
-        "Passive observation ledger. See [README](./README) for methodology.\n"
+        "Passive observation ledger. See [README](./README.md) for methodology.\n"
         "**Research phase — not a tradeable signal, not investment advice.**\n\n"
         "Each entry: 3 LLMs (Claude, GPT, Gemini) × 2 prompt styles (naive, "
         "sophisticated) × N tradable scopes, published the morning after collection.\n\n"

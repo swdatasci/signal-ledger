@@ -4,7 +4,7 @@ title: AI Consensus — index
 
 # AI Consensus — daily predictions
 
-Passive observation ledger. See [README](./README) for methodology.
+Passive observation ledger. See [README](./README.md) for methodology.
 **Research phase — not a tradeable signal, not investment advice.**
 
 Each entry: 3 LLMs (Claude, GPT, Gemini) × 2 prompt styles (naive, sophisticated) × N tradable scopes, published the morning after collection.
