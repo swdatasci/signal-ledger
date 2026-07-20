@@ -41,7 +41,7 @@ PUSHOVER_USER = os.environ.get("PUSHOVER_USER_KEY", "")
 PUSHOVER_TOKEN = os.environ.get("PUSHOVER_API_TOKEN", "")
 
 TWITTER_HANDLE = "@research_signal"
-LEDGER_PUBLIC_URL = "https://github.com/iodev/signal-ledger/blob/main/ledger.md"
+LEDGER_PUBLIC_URL = "https://github.com/swdatasci/signal-ledger/blob/main/ledger.md"
 
 # Buffer for batched events (avoid one git commit per signal in a burst)
 _buffer: list[str] = []
