@@ -11,8 +11,7 @@ Each entry: 3 LLMs (Claude, GPT, Gemini) × 2 prompt styles (naive, sophisticate
 
 ## Recent days
 
-<!-- Newest at top. Manually curated — updater script may auto-refresh later. -->
-
+- [2026-07-20](./2026-07-20)
 - [2026-07-19](./2026-07-19)
 - [2026-07-18](./2026-07-18)
 - [2026-07-17](./2026-07-17)
