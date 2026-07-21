@@ -1,11 +1,11 @@
 ---
 title: Morning Brief — 2026-07-21
-date: 2026-07-21T22:08:23+00:00
+date: 2026-07-21T22:14:59+00:00
 ---
 
 # Morning Brief — 2026-07-21
 
-Generated 2026-07-21T22:08:23+00:00 UTC. Sources this run:
+Generated 2026-07-21T22:14:59+00:00 UTC. Sources this run:
 - llm-trader: 2 enter picks (latest cycle)
 - congress-dpi: 0 signals in last 24h
 - gov-contracts: 0 signals in last 24h
@@ -19,7 +19,7 @@ _no ticker mentioned by 2+ strategies today_
 
 ## llm-trader — latest cycle
 
-Cycle 2026-07-21T19:54:38+00:00 — [full decision](llm-trader/2026/07/21/1954.md)
+Cycle 2026-07-21T19:54:38+00:00 — [full decision](/signal-ledger/llm-trader/2026/07/21/1954)
 
 - **AAPL** long conf 8
 - **TSLA** long conf 7
