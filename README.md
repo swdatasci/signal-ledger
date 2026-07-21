@@ -10,6 +10,8 @@ Every entry, fill, and exit is recorded in `ledger.md`. Git commits give tamper-
 
 - **`ledger.md`** — running append-only log of every signal, entry, fill, and exit
 - **`open-positions.md`** — current live paper-trade book
+- **`journal/`** — [pre-registered trader journal](./journal/README.md): every trade written BEFORE the broker order, git-committed for tamper-evident sequencing
+- **`consensus/`** — [daily 3-LLM consensus predictions](./consensus/) published every morning
 - Signals fire from two strategies:
   - **Gov contracts** — DoD contract awards $200M-$1B to public defense/IT primes, T+1 entry, 7d hold. Backtest: SPY-hedged α +48%/yr (IR 2.23) or ITA-hedged α +29%/yr (IR 1.56).
   - **Congress×DPI z≥+2** — high-conviction cross of congressional purchase disclosures with elevated dark-pool activity. Backtest: IR 0.51-0.60.
