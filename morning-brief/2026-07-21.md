@@ -1,11 +1,11 @@
 ---
 title: Morning Brief — 2026-07-21
-date: 2026-07-21T21:33:10+00:00
+date: 2026-07-21T22:08:23+00:00
 ---
 
 # Morning Brief — 2026-07-21
 
-Generated 2026-07-21T21:33:10+00:00 UTC. Sources this run:
+Generated 2026-07-21T22:08:23+00:00 UTC. Sources this run:
 - llm-trader: 2 enter picks (latest cycle)
 - congress-dpi: 0 signals in last 24h
 - gov-contracts: 0 signals in last 24h
