@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-07-23 15:32 UTC | intraday-reversion | BUY      | ORCL   | O=122.16 entry=119.89 target=122.16 stop=118.35
 2026-07-23 15:31 UTC | intraday-reversion | BUY      | NKE    | O=41.71 entry=41.229 target=41.71 stop=41.155
 2026-07-23 15:31 UTC | intraday-reversion | BUY      | MSFT   | O=388.67 entry=384.627 target=388.67 stop=384.005
 2026-07-23 15:27 UTC | intraday-reversion | BUY      | AVGO   | O=392.12 entry=388.04 target=392.12 stop=383.885
