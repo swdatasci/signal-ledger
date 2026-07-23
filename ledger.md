@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-07-23 15:39 UTC | intraday-reversion | BUY      | INTC   | O=102.25 entry=100.89 target=102.25 stop=100.0
 2026-07-23 15:39 UTC | intraday-reversion | BUY      | CRM    | O=159.38 entry=156.585 target=159.38 stop=156.155
 2026-07-23 15:38 UTC | intraday-reversion | BUY      | AMD    | O=551.72 entry=545.519 target=551.72 stop=544.565
 2026-07-23 15:38 UTC | intraday-reversion | BUY      | ADBE   | O=215.81 entry=213.4 target=215.81 stop=211.565
