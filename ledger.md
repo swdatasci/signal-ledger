@@ -1,4 +1,4 @@
-# Signal Ledger — @sqwrell
+# Signal Ledger — @research_signal
 
 Append-only. Every row is one event, most-recent-first.
 Timestamps in UTC. All entries are **paper trades** unless explicitly flagged `[REAL CAPITAL]`.

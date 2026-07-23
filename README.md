@@ -1,7 +1,7 @@
 # signal-ledger
 
 Public real-time algorithmic-trading ledger — swdatasci.
-Signals posted from [@research_signal](https://x.com/research_signal) · brand: [@sqwrell](https://x.com/sqwrell).
+Signals posted from [@research_signal](https://x.com/research_signal).
 
 Every signal our paper-trader fires is timestamped and committed to this repo automatically.
 Every entry, fill, and exit is recorded in `ledger.md`. Git commits give tamper-evident timestamps.

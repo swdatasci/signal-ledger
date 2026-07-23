@@ -83,4 +83,4 @@ Optional but valuable:
 
 ## Attribution
 
-Author: [@sqwrell](https://github.com/swdatasci) / research@swdatasci.com
+Author: [@research_signal](https://x.com/research_signal) / research@swdatasci.com
