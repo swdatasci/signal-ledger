@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-07-24 16:34 UTC | llm-trader      | BUY      | WDAY   | conf=7 entry=134.0 stop=129.5 target=146.0
 2026-07-24 16:33 UTC | llm-trader      | BUY      | TMUS   | conf=6 entry=178.5 stop=174.0 target=192.0
 2026-07-24 16:33 UTC | llm-trader      | BUY      | ABNB   | conf=6 entry=142.0 stop=139.5 target=147.5
 2026-07-24 14:24 UTC | llm-trader      | BUY      | VZ     | conf=6 entry=45.0 stop=43.7 target=48.1
