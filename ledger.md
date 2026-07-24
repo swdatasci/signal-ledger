@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-07-24 19:44 UTC | llm-trader      | BUY      | AVGO   | conf=6 entry=379.96 stop=368.0 target=425.0
 2026-07-24 19:44 UTC | llm-trader      | BUY      | AMD    | conf=7 entry=521.23 stop=498.0 target=625.0
 2026-07-24 18:42 UTC | llm-trader      | BUY      | CTSH   | conf=6 entry=45.16 stop=43.2 target=50.8
 2026-07-24 18:42 UTC | llm-trader      | BUY      | ADBE   | conf=7 entry=225.39 stop=216.0 target=248.0
