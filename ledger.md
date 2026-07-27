@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-07-27 19:10 UTC | llm-trader      | BUY      | DIS    | conf=6 entry=96.59 stop=94.0 target=102.0
 2026-07-27 19:10 UTC | llm-trader      | BUY      | TGT    | conf=7 entry=140.22 stop=138.5 target=146.0
 2026-07-27 19:10 UTC | llm-trader      | BUY      | MCD    | conf=7 entry=270.54 stop=268.0 target=279.0
 2026-07-27 17:04 UTC | llm-trader      | BUY      | DHR    | conf=6 entry=194.26 stop=187.0 target=205.32
