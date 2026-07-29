@@ -7,6 +7,13 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-07-29 13:51 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=198.5 target=204.75 init_stop=196.44 (min(atr=7.082×2.5=17.70, 0.33×upside=2.06))
+2026-07-29 13:31 UTC | live-signal      | LONG-B   | QCOM   | DO: LONG-B QCOM | conf=high exp=+2.77% hit=60% t=+6.2
+2026-07-29 13:31 UTC | live-signal      | LONG-B   | UPS    | DO: LONG-B UPS | conf=high exp=+2.77% hit=60% t=+6.2
+2026-07-28 13:31 UTC | live-signal      | LONG-B   | QCOM   | mean=+2.77% t=+6.2 hit=60% conf=high regime='Universal (mega-cap universe 2020-2024)'
+2026-07-28 13:31 UTC | live-signal      | LONG-B   | CVX    | mean=+2.77% t=+6.2 hit=60% conf=high regime='Universal (mega-cap universe 2020-2024)'
+2026-07-28 13:31 UTC | live-signal      | LONG-B   | INTC   | mean=+3.55% t=+4.3 hit=59% conf=medium regime='Universal (mega-cap universe 2020-2024)'
+2026-07-28 01:43 UTC | calendar        | LONG-B   | MONDAY | mean=+0.08% t=+4.2 hit=53% conf=medium regime='Universe-wide'
 2026-07-27 19:10 UTC | llm-trader      | BUY      | DIS    | conf=6 entry=96.59 stop=94.0 target=102.0
 2026-07-27 19:10 UTC | llm-trader      | BUY      | TGT    | conf=7 entry=140.22 stop=138.5 target=146.0
 2026-07-27 19:10 UTC | llm-trader      | BUY      | MCD    | conf=7 entry=270.54 stop=268.0 target=279.0
