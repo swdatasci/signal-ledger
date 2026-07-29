@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-07-29 13:51 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=128.3 target=134.9 init_stop=126.12 (min(atr=7.254×2.5=18.13, 0.33×upside=2.18))
 2026-07-29 13:51 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=198.5 target=204.75 init_stop=196.44 (min(atr=7.082×2.5=17.70, 0.33×upside=2.06))
 2026-07-29 13:31 UTC | live-signal      | LONG-B   | QCOM   | DO: LONG-B QCOM | conf=high exp=+2.77% hit=60% t=+6.2
 2026-07-29 13:31 UTC | live-signal      | LONG-B   | UPS    | DO: LONG-B UPS | conf=high exp=+2.77% hit=60% t=+6.2
