@@ -7,6 +7,27 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-07-31 14:20 UTC | intraday-reversion | BUY      | XOM    | O=153.74 entry=152.39 target=153.74 trail=$6.52
+2026-07-31 13:31 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+3.15% hit=61% t=+7.2
+2026-07-31 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=medium exp=+3.35% hit=59% t=+4.3
+2026-07-31 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=medium exp=+3.35% hit=59% t=+4.3
+2026-07-31 13:31 UTC | live-signal      | LONG-B   | CMCSA  | DO: LONG-B CMCSA | conf=high exp=+2.77% hit=60% t=+6.2
+2026-07-31 13:02 UTC | live-signal      | LONG-B   | FRIDAYxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.31%. | conf=high exp=+0.31% hit=59% t=+9.6
+2026-07-31 13:02 UTC | live-signal      | LONG-B   | H12-MONTHEND-LIFT | DO: BUY SPY at open, SELL at close. Universal effect — works in any regime. | conf=high exp=+0.23% hit=55% t=+7.2
+2026-07-30 13:32 UTC | live-signal      | LONG-B   | META   | DO: LONG-B META | conf=medium exp=+3.55% hit=59% t=+4.3
+2026-07-30 13:32 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=medium exp=+3.35% hit=59% t=+4.3
+2026-07-30 13:32 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.15% hit=61% t=+7.2
+2026-07-30 13:32 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=medium exp=+3.35% hit=59% t=+4.3
+2026-07-30 13:32 UTC | live-signal      | LONG-B   | CMCSA  | DO: LONG-B CMCSA | conf=high exp=+2.77% hit=60% t=+6.2
+2026-07-30 13:32 UTC | live-signal      | LONG-B   | CRM    | DO: LONG-B CRM | conf=high exp=+2.77% hit=60% t=+6.2
+2026-07-30 13:32 UTC | live-signal      | LONG-B   | ADBE   | DO: LONG-B ADBE | conf=high exp=+2.77% hit=60% t=+6.2
+2026-07-30 13:32 UTC | live-signal      | LONG-B   | MSFT   | DO: LONG-B MSFT | conf=medium exp=+3.35% hit=59% t=+4.3
+2026-07-30 13:32 UTC | live-signal      | LONG-B   | QCOM   | DO: LONG-B QCOM | conf=medium exp=+3.55% hit=59% t=+4.3
+2026-07-30 13:32 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+3.15% hit=61% t=+7.2
+2026-07-30 13:00 UTC | live-signal      | LONG-B   | T-1xBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.18% (smaller than bear-regime version). | conf=medium exp=+0.18% hit=57% t=+3.1
+2026-07-30 13:00 UTC | live-signal      | LONG-B   | H12-MONTHEND-LIFT | DO: BUY SPY at open, SELL at close. Universal effect — works in any regime. | conf=high exp=+0.23% hit=55% t=+7.2
+2026-07-30 12:54 UTC | live-signal      | LONG-B   | T-1xBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.18% (smaller than bear-regime version). | conf=medium exp=+0.18% hit=57% t=+3.1
+2026-07-30 12:54 UTC | live-signal      | LONG-B   | H12-MONTHEND-LIFT | DO: BUY SPY at open, SELL at close. Universal effect — works in any regime. | conf=high exp=+0.23% hit=55% t=+7.2
 2026-07-29 13:51 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=128.3 target=134.9 init_stop=126.12 (min(atr=7.254×2.5=18.13, 0.33×upside=2.18))
 2026-07-29 13:51 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=198.5 target=204.75 init_stop=196.44 (min(atr=7.082×2.5=17.70, 0.33×upside=2.06))
 2026-07-29 13:31 UTC | live-signal      | LONG-B   | QCOM   | DO: LONG-B QCOM | conf=high exp=+2.77% hit=60% t=+6.2
