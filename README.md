@@ -10,6 +10,7 @@ Every entry, fill, and exit is recorded in `ledger.md`. Git commits give tamper-
 
 - **`ledger.md`** — running append-only log of every signal, entry, fill, and exit
 - **`open-positions.md`** — current live paper-trade book
+- **[Signal codes reference](./signal-codes)** — what the Pushover notification fields (`exp`, `hit`, `t`, confidence tiers) mean, and the full catalog of signal codes
 - **`journal/`** — [pre-registered trader journal](./journal/README.md): every trade written BEFORE the broker order, git-committed for tamper-evident sequencing
 - **`consensus/`** — [daily 3-LLM consensus predictions](./consensus/) published every morning
 - Signals fire from two strategies:
