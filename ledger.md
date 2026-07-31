@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-07-31 15:51 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=198.45 target=203.75 init_stop=196.7 (min(atr=7.540×2.5=18.85, 0.33×upside=1.75))
 2026-07-31 14:20 UTC | intraday-reversion | BUY      | XOM    | O=153.74 entry=152.39 target=153.74 trail=$6.52
 2026-07-31 13:31 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+3.15% hit=61% t=+7.2
 2026-07-31 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=medium exp=+3.35% hit=59% t=+4.3
