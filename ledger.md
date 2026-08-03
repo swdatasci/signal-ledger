@@ -7,6 +7,10 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-03 15:00 UTC | intraday-reversion | BUY      | V      | O=368.5 entry=366.03 target=368.5 trail=$13.88
+2026-08-03 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+2.77% hit=60% t=+6.2
+2026-08-03 13:31 UTC | live-signal      | LONG-B   | ADBE   | DO: LONG-B ADBE | conf=high exp=+3.15% hit=61% t=+7.2
+2026-08-03 13:10 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-07-31 17:58 UTC | llm-trader      | BUY      | AMD    | conf=5 entry=172.3 target=184.0 init_stop=168.44 (min(atr=39.680×2.5=99.20, 0.33×upside=3.86))
 2026-07-31 17:57 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=138.5 target=147.9 init_stop=135.4 (min(atr=7.576×2.5=18.94, 0.33×upside=3.10))
 2026-07-31 15:51 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=128.9 target=134.2 init_stop=127.15 (min(atr=7.576×2.5=18.94, 0.33×upside=1.75))
