@@ -7,6 +7,14 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-04 15:32 UTC | intraday-reversion | BUY      | ABBV   | O=244.85 entry=243.9 target=244.85 trail=$4.92
+2026-08-04 13:31 UTC | live-signal      | LONG-B   | CSCO   | DO: LONG-B CSCO | conf=high exp=+3.15% hit=61% t=+7.2
+2026-08-04 13:31 UTC | live-signal      | LONG-B   | QCOM   | DO: LONG-B QCOM | conf=high exp=+3.15% hit=61% t=+7.2
+2026-08-04 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.15% hit=61% t=+7.2
+2026-08-04 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.15% hit=61% t=+7.2
+2026-08-04 13:31 UTC | live-signal      | LONG-B   | NKE    | DO: LONG-B NKE | conf=high exp=+2.77% hit=60% t=+6.2
+2026-08-04 13:31 UTC | live-signal      | LONG-B   | TXN    | DO: LONG-B TXN | conf=high exp=+3.15% hit=61% t=+7.2
+2026-08-04 13:31 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=medium exp=+3.35% hit=59% t=+4.3
 2026-08-03 15:31 UTC | intraday-reversion | BUY      | MRK    | O=129.44 entry=127.25 target=129.44 trail=$8.12
 2026-08-03 15:00 UTC | intraday-reversion | BUY      | V      | O=368.5 entry=366.03 target=368.5 trail=$13.88
 2026-08-03 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+2.77% hit=60% t=+6.2
