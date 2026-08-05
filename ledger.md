@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-05 15:48 UTC | intraday-reversion | BUY      | XOM    | O=152.28 entry=151.33 target=152.28 trail=$3.4
 2026-08-05 15:40 UTC | intraday-reversion | BUY      | CSCO   | O=121.92 entry=121.33 target=121.92 trail=$2.56
 2026-08-05 15:35 UTC | intraday-reversion | BUY      | PM     | O=187.03 entry=186.03 target=187.03 trail=$3.88
 2026-08-05 15:31 UTC | intraday-reversion | BUY      | AVGO   | O=422.86 entry=419.62 target=422.86 trail=$16.56
