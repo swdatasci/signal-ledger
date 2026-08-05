@@ -7,6 +7,12 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-05 14:12 UTC | intraday-reversion | BUY      | VZ     | O=46.0 entry=45.36 target=46.0 trail=$3.64
+2026-08-05 13:31 UTC | live-signal      | LONG-B   | DIS    | DO: LONG-B DIS | conf=high exp=+3.15% hit=61% t=+7.2
+2026-08-05 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.15% hit=61% t=+7.2
+2026-08-05 13:31 UTC | live-signal      | LONG-B   | CSCO   | DO: LONG-B CSCO | conf=high exp=+3.15% hit=61% t=+7.2
+2026-08-05 13:31 UTC | live-signal      | LONG-B   | LLY    | DO: LONG-B LLY | conf=high exp=+3.35% hit=59% t=+4.3
+2026-08-05 13:31 UTC | live-signal      | LONG-B   | T      | DO: LONG-B T | conf=high exp=+2.77% hit=60% t=+6.2
 2026-08-04 15:45 UTC | intraday-reversion | BUY      | MRK    | O=128.63 entry=127.63 target=128.63 trail=$4.6
 2026-08-04 15:42 UTC | intraday-reversion | BUY      | CSCO   | O=120.97 entry=120.47 target=120.97 trail=$2.68
 2026-08-04 15:32 UTC | intraday-reversion | BUY      | ABBV   | O=244.85 entry=243.9 target=244.85 trail=$4.92
