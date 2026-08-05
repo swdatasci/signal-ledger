@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-05 15:53 UTC | intraday-reversion | BUY      | NVDA   | O=219.95 entry=219.06 target=219.95 trail=$4.88
 2026-08-05 15:52 UTC | intraday-reversion | BUY      | CVX    | O=188.25 entry=186.78 target=188.25 trail=$4.56
 2026-08-05 15:49 UTC | intraday-reversion | BUY      | GOOGL  | O=378.79 entry=376.79 target=378.79 trail=$7.68
 2026-08-05 15:48 UTC | intraday-reversion | BUY      | XOM    | O=152.28 entry=151.33 target=152.28 trail=$3.4
