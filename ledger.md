@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-05 15:29 UTC | intraday-reversion | BUY      | HON    | O=248.63 entry=246.85 target=248.63 trail=$10.12
 2026-08-05 14:12 UTC | intraday-reversion | BUY      | VZ     | O=46.0 entry=45.36 target=46.0 trail=$3.64
 2026-08-05 13:31 UTC | live-signal      | LONG-B   | DIS    | DO: LONG-B DIS | conf=high exp=+3.15% hit=61% t=+7.2
 2026-08-05 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.15% hit=61% t=+7.2
