@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-06 14:30 UTC | intraday-reversion | BUY      | NVDA   | O=221.53 entry=219.87 target=221.53 trail=$8.4
 2026-08-06 14:14 UTC | intraday-reversion | BUY      | AAPL   | O=314.34 entry=313.44 target=314.34 trail=$7.8
 2026-08-06 13:31 UTC | live-signal      | LONG-B   | CRM    | DO: LONG-B CRM | conf=high exp=+2.77% hit=60% t=+6.2
 2026-08-06 13:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+2.77% hit=60% t=+6.2
