@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-06 15:34 UTC | intraday-reversion | BUY      | GS     | O=1057.02 entry=1049.18 target=1057.02 trail=$44.08
 2026-08-06 15:33 UTC | intraday-reversion | BUY      | VZ     | O=47.07 entry=46.71 target=47.07 trail=$1.64
 2026-08-06 15:32 UTC | intraday-reversion | BUY      | BA     | O=239.09 entry=234.78 target=239.09 trail=$5.12
 2026-08-06 15:20 UTC | intraday-reversion | BUY      | GOOGL  | O=360.96 entry=359.18 target=360.96 trail=$12.68
