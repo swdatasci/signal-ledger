@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-07 15:35 UTC | intraday-reversion | BUY      | GE     | O=374.05 entry=371.88 target=374.05 trail=$8.8
 2026-08-07 15:34 UTC | intraday-reversion | BUY      | BA     | O=232.63 entry=231.31 target=232.63 trail=$5.4
 2026-08-07 15:03 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=138.75 target=149.0 init_stop=135.37 (min(atr=7.688×2.5=19.22, 0.33×upside=3.38))
 2026-08-07 15:03 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=218.5 target=237.9 init_stop=212.1 (min(atr=7.563×2.5=18.91, 0.33×upside=6.40))
