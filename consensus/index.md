@@ -11,6 +11,7 @@ Each entry: 3 LLMs (Claude, GPT, Gemini) × 2 prompt styles (naive, sophisticate
 
 ## Recent days
 
+- [2026-08-06](./2026-08-06)
 - [2026-08-05](./2026-08-05)
 - [2026-08-03](./2026-08-03)
 - [2026-08-01](./2026-08-01)
