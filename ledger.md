@@ -7,6 +7,9 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-07 15:03 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=218.5 target=237.9 init_stop=212.1 (min(atr=7.563×2.5=18.91, 0.33×upside=6.40))
+2026-08-07 13:31 UTC | live-signal      | LONG-B   | CRM    | DO: LONG-B CRM | conf=high exp=+2.77% hit=60% t=+6.2
+2026-08-07 13:00 UTC | live-signal      | LONG-B   | FRIDAYxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.31%. | conf=high exp=+0.31% hit=59% t=+9.6
 2026-08-06 15:37 UTC | intraday-reversion | BUY      | HON    | O=248.41 entry=242.86 target=248.41 trail=$5.48
 2026-08-06 15:34 UTC | intraday-reversion | BUY      | MS     | O=217.5 entry=216.13 target=217.5 trail=$6.68
 2026-08-06 15:34 UTC | intraday-reversion | BUY      | GS     | O=1057.02 entry=1049.18 target=1057.02 trail=$44.08
