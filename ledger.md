@@ -7,6 +7,8 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-10 14:12 UTC | intraday-reversion | BUY      | V      | O=362.0 entry=359.76 target=362.0 trail=$8.68
+2026-08-10 13:00 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-08-07 15:35 UTC | intraday-reversion | BUY      | GE     | O=374.05 entry=371.88 target=374.05 trail=$8.8
 2026-08-07 15:34 UTC | intraday-reversion | BUY      | BA     | O=232.63 entry=231.31 target=232.63 trail=$5.4
 2026-08-07 15:03 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=138.75 target=149.0 init_stop=135.37 (min(atr=7.688×2.5=19.22, 0.33×upside=3.38))
