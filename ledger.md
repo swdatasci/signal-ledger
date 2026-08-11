@@ -7,6 +7,8 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-11 13:37 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=138.45 target=147.9 init_stop=135.33 (min(atr=7.451×2.5=18.63, 0.33×upside=3.12))
+2026-08-11 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+2.77% hit=60% t=+6.2
 2026-08-10 15:43 UTC | intraday-reversion | BUY      | AVGO   | O=427.53 entry=425.81 target=427.53 trail=$10.68
 2026-08-10 14:12 UTC | intraday-reversion | BUY      | V      | O=362.0 entry=359.76 target=362.0 trail=$8.68
 2026-08-10 13:00 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
