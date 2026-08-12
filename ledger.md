@@ -7,6 +7,8 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-12 14:05 UTC | intraday-reversion | BUY      | V      | O=361.0 entry=360.05 target=361.0 trail=$9.4
+2026-08-12 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.15% hit=61% t=+7.2
 2026-08-11 15:09 UTC | intraday-reversion | BUY      | BA     | O=235.61 entry=234.19 target=235.61 trail=$6.0
 2026-08-11 14:31 UTC | intraday-reversion | BUY      | JNJ    | O=261.23 entry=259.23 target=261.23 trail=$11.68
 2026-08-11 14:21 UTC | intraday-reversion | BUY      | HON    | O=242.32 entry=241.57 target=242.32 trail=$9.96
