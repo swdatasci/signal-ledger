@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-13 17:35 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=218.75 target=234.5 init_stop=213.55 (min(atr=6.165×2.5=15.41, 0.33×upside=5.20))
 2026-08-13 17:35 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=138.5 target=147.2 init_stop=135.63 (min(atr=7.243×2.5=18.11, 0.33×upside=2.87))
 2026-08-13 17:30 UTC | live-signal      | LONG-1   | INTC   | DO: LONG-1 INTC | conf=medium exp=+0.19% hit=53% t=+2.4
 2026-08-13 16:31 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=862.3 target=910.0 init_stop=846.56 (min(atr=7.243×2.5=18.11, 0.33×upside=15.74))
