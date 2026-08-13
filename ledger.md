@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-13 16:31 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=198.5 target=204.75 init_stop=196.44 (min(atr=6.165×2.5=15.41, 0.33×upside=2.06))
 2026-08-13 16:03 UTC | intraday-reversion | BUY      | AMZN   | O=267.24 entry=265.86 target=267.24 trail=$7.68
 2026-08-13 15:24 UTC | intraday-reversion | BUY      | ABBV   | O=252.94 entry=250.97 target=252.94 trail=$9.44
 2026-08-13 14:25 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=128.3 target=134.9 init_stop=126.12 (min(atr=7.216×2.5=18.04, 0.33×upside=2.18))
