@@ -7,6 +7,8 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-14 14:52 UTC | intraday-reversion | BUY      | BA     | O=231.63 entry=230.63 target=231.63 trail=$5.16
+2026-08-14 13:08 UTC | live-signal      | LONG-B   | FRIDAYxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.31%. | conf=high exp=+0.31% hit=59% t=+9.6
 2026-08-13 17:36 UTC | llm-trader      | BUY      | UNH    | conf=6 entry=542.1 target=579.0 init_stop=529.92 (min(atr=10.668×2.5=26.67, 0.33×upside=12.18))
 2026-08-13 17:35 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=218.75 target=234.5 init_stop=213.55 (min(atr=6.165×2.5=15.41, 0.33×upside=5.20))
 2026-08-13 17:35 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=138.5 target=147.2 init_stop=135.63 (min(atr=7.243×2.5=18.11, 0.33×upside=2.87))
