@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-18 14:42 UTC | intraday-reversion | BUY      | XOM    | O=164.35 entry=163.87 target=164.35 trail=$3.68
 2026-08-18 14:13 UTC | intraday-reversion | BUY      | NVDA   | O=220.37 entry=219.05 target=220.37 trail=$5.08
 2026-08-17 20:03 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=128.75 target=135.9 init_stop=126.39 [parent placed, awaiting fill]
 2026-08-17 20:02 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=198.5 target=204.75 init_stop=196.44 [parent placed, awaiting fill]
