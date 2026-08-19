@@ -7,6 +7,10 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-19 14:21 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=198.5 target=204.7 init_stop=196.45 (min(atr=5.866×2.5=14.67, 0.33×upside=2.05))
+2026-08-19 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+2.77% hit=60% t=+6.2
+2026-08-19 13:31 UTC | live-signal      | LONG-B   | TGT    | DO: LONG-B TGT | conf=high exp=+2.77% hit=60% t=+6.2
+2026-08-19 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+2.77% hit=60% t=+6.2
 2026-08-18 16:04 UTC | intraday-reversion | BUY      | BAC    | O=63.99 entry=63.73 target=63.99 trail=$1.6
 2026-08-18 14:47 UTC | intraday-reversion | BUY      | CVX    | O=205.03 entry=204.09 target=205.03 trail=$4.76
 2026-08-18 14:42 UTC | intraday-reversion | BUY      | XOM    | O=164.35 entry=163.87 target=164.35 trail=$3.68
