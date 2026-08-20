@@ -7,6 +7,9 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-20 14:07 UTC | intraday-reversion | BUY      | NVDA   | O=218.39 entry=217.57 target=218.39 trail=$5.88
+2026-08-20 13:31 UTC | live-signal      | LONG-B   | TGT    | DO: LONG-B TGT | conf=high exp=+2.77% hit=60% t=+6.2
+2026-08-20 13:31 UTC | live-signal      | LONG-B   | MRK    | DO: LONG-B MRK | conf=high exp=+3.35% hit=59% t=+4.3
 2026-08-19 14:21 UTC | llm-trader      | BUY      | NVDA   | conf=5 entry=892.15 target=934.0 init_stop=878.34 (min(atr=6.811×2.5=17.03, 0.33×upside=13.81))
 2026-08-19 14:21 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=198.5 target=204.7 init_stop=196.45 (min(atr=5.866×2.5=14.67, 0.33×upside=2.05))
 2026-08-19 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+2.77% hit=60% t=+6.2
