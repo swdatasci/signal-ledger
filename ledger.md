@@ -7,6 +7,9 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-24 14:22 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=208.82 target=245.0 init_stop=196.88 (min(atr=6.303×2.5=15.76, 0.33×upside=11.94))
+2026-08-24 13:02 UTC | live-signal      | LONG-B   | POST-OPEXxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.46%. Strong signal, act on it. | conf=high exp=+0.46% hit=63% t=+8.7
+2026-08-24 13:02 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-08-21 15:12 UTC | intraday-reversion | BUY      | XOM    | O=166.54 entry=165.68 target=166.54 trail=$5.84
 2026-08-21 14:48 UTC | intraday-reversion | BUY      | JPM    | O=354.07 entry=352.8 target=354.07 trail=$11.16
 2026-08-20 14:07 UTC | intraday-reversion | BUY      | NVDA   | O=218.39 entry=217.57 target=218.39 trail=$5.88
