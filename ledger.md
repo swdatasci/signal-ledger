@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-24 16:26 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=210.84 target=225.0 init_stop=206.17 (min(atr=6.303×2.5=15.76, 0.33×upside=4.67))
 2026-08-24 15:12 UTC | intraday-reversion | BUY      | CVX    | O=203.67 entry=202.48 target=203.67 trail=$6.52
 2026-08-24 14:23 UTC | llm-trader      | BUY      | AMD    | conf=6 entry=453.61 target=520.0 init_stop=431.7 (min(atr=27.251×2.5=68.13, 0.33×upside=21.91))
 2026-08-24 14:22 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=208.82 target=245.0 init_stop=196.88 (min(atr=6.303×2.5=15.76, 0.33×upside=11.94))
