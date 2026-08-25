@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-25 13:37 UTC | llm-trader      | BUY      | AEP    | conf=5 entry=121.98 target=126.5 init_stop=120.49 (min(atr=2.419×2.5=6.05, 0.33×upside=1.49))
 2026-08-25 13:36 UTC | llm-trader      | BUY      | AMGN   | conf=7 entry=444.36 target=465.0 init_stop=437.55 (min(atr=11.096×2.5=27.74, 0.33×upside=6.81))
 2026-08-25 13:36 UTC | llm-trader      | BUY      | MSFT   | conf=6 entry=485.3 target=502.0 init_stop=479.79 (min(atr=13.835×2.5=34.59, 0.33×upside=5.51))
 2026-08-24 18:31 UTC | llm-trader      | BUY      | MSFT   | conf=6 entry=488.7 target=505.0 init_stop=483.32 (min(atr=14.336×2.5=35.84, 0.33×upside=5.38))
