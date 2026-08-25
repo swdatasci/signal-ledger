@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-25 17:45 UTC | llm-trader      | BUY      | TSLA   | conf=5 entry=353.13 target=375.0 init_stop=345.91 (min(atr=11.920×2.5=29.80, 0.33×upside=7.22))
 2026-08-25 17:45 UTC | llm-trader      | BUY      | MSFT   | conf=7 entry=490.16 target=510.0 init_stop=483.61 (min(atr=14.012×2.5=35.03, 0.33×upside=6.55))
 2026-08-25 17:45 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=309.675 target=322.0 init_stop=305.61 (min(atr=7.751×2.5=19.38, 0.33×upside=4.07))
 2026-08-25 14:39 UTC | llm-trader      | BUY      | MSFT   | conf=6 entry=487.34 target=495.0 init_stop=484.81 (min(atr=13.968×2.5=34.92, 0.33×upside=2.53))
