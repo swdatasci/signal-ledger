@@ -3,12 +3,12 @@
 Current paper-trade book. Regenerated from the BROKER, not from our
 own logs -- a book built from what we *think* we sent can drift with
 the log that produced it and agree while both are wrong.
-Last updated: 2026-08-26 17:59 UTC
+Last updated: 2026-08-26 18:00 UTC
 
 | Account | Symbol | Qty | Avg entry | Last | Unrealized |
 |---|---|---:|---:|---:|---:|
 | PA39DK9WGA5G | AMD | 1 | 482.69 | 483.4111 | 0.7211 |
-| PA39DK9WGA5G | CAT | 1 | 821.66 | 822.66 | 1 |
+| PA39DK9WGA5G | CAT | 1 | 821.66 | 822.665 | 1.005 |
 | PA39DK9WGA5G | META | 1 | 575.9 | 578.0496 | 2.1496 |
 | PA3JEJDWV0EH | CLS | 7.711593474 | 360.938373 | 308.14 | -407.159589 |
 | PA3JEJDWV0EH | FIRY | 299.42145515 | 9.142464 | 9.73 | 175.920884 |
