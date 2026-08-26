@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-26 16:59 UTC | llm-trader      | BUY      | AMD    | conf=7 entry=482.79 target=510.0 init_stop=473.81 (min(atr=24.255×2.5=60.64, 0.33×upside=8.98))
 2026-08-26 16:56 UTC | intraday-reversion | BUY      | PM     | O=195.0 entry=194.07 target=195.0 trail=$5.2
 2026-08-26 15:57 UTC | llm-trader      | BUY      | AMD    | conf=6 entry=483.73 target=510.0 init_stop=475.06 (min(atr=24.255×2.5=60.64, 0.33×upside=8.67))
 2026-08-26 15:57 UTC | llm-trader      | BUY      | META   | conf=6 entry=577.81 target=610.0 init_stop=567.19 (min(atr=18.799×2.5=47.00, 0.33×upside=10.62))
