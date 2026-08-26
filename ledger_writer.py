@@ -135,11 +135,6 @@ def notify(strategy: str, action: str, ticker: str, notes: str = "",
     )
 
 
-if __name__ == "__main__":
-    # Any direct invocation of this module is a test by definition.
-    notify("test", "BUY", "TEST", "smoke test from ledger_writer.__main__",
-           is_test=True)
-    print("[ledger] test notification sent with [TEST] marker")
 
 
 def record(strategy: str, action: str, ticker: str, notes: str = "",
@@ -212,10 +207,6 @@ def flush() -> None:
         _run(["git", "push", "origin", "HEAD"], LEDGER_ROOT)
 
 
-if __name__ == "__main__":
-    # Smoke test
-    record("test", "SIGNAL", "AAPL", "smoke-test event from ledger_writer.py __main__")
-    print("[ledger] smoke test complete — check ledger.md")
 
 # ---------------------------------------------------------------------------
 # open-positions.md -- THE PRODUCER THAT WAS NEVER WRITTEN
@@ -304,3 +295,44 @@ def update_open_positions(rows: list[dict], push: bool = True) -> bool:
     if rc == 0 and push:
         _run(["git", "push"], LEDGER_ROOT)
     return True
+
+
+# ---------------------------------------------------------------------------
+# ONE __main__, AT THE END, AND THE LEDGER WRITE IS OPT-IN
+# ---------------------------------------------------------------------------
+#
+# There used to be TWO `if __name__ == "__main__":` blocks -- one mid-file at
+# line ~138 and another at ~215. Python runs top to bottom, so a direct
+# `python ledger_writer.py` executed BOTH and then fell through into whatever
+# was defined after them. The second one called
+#
+#     record("test", "SIGNAL", "AAPL", "smoke-test event ...")
+#
+# and `record()` defaults to flush_now=True, push=True. So running this file
+# directly APPENDED A FABRICATED SIGNAL to ledger.md, committed it, and pushed
+# it to a PUBLIC repository whose README states that every signal here was
+# fired by the paper-trader. A fabricated row is indistinguishable from a real
+# one to any reader, which makes it an integrity problem rather than clutter.
+#
+# Verified it never actually fired: no smoke-test row exists in ledger.md and
+# no commit ever added one. Latent, not realised.
+#
+# A mid-file __main__ is also a trap for the next editor -- it reads as the end
+# of the module. Appending below it (as the open-positions producer did) is
+# invisible at a glance.
+#
+# The notification smoke test is harmless and stays default. The LEDGER write
+# now requires an explicit flag, because a test that publishes to a public
+# ledger is not a test.
+if __name__ == "__main__":
+    import sys as _sys
+
+    if "--write-ledger" in _sys.argv:
+        record("test", "SIGNAL", "AAPL",
+               "smoke-test event from ledger_writer.py __main__")
+        print("[ledger] smoke test WROTE AND PUSHED a row to the public ledger")
+    else:
+        notify("test", "BUY", "TEST", "smoke test from ledger_writer.__main__",
+               is_test=True)
+        print("[ledger] test notification sent with [TEST] marker "
+              "(no ledger write; pass --write-ledger to publish a row)")

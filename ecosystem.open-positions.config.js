@@ -18,6 +18,16 @@
 // and publishing a flat book off an API error is the same defect as the file
 // that was never written at all.
 //
+// LIVENESS. This job had none and could not have had one from the file it
+// writes: update_open_positions() skips the write when content is unchanged,
+// so open-positions.md's mtime says nothing about whether the job still runs.
+// Every run now drops ~/.cache/heartbeats/signal-ledger-open-positions.json
+// (see heartbeat.py) carrying the cron above, and pm2-log-triage checks its
+// age against the most recent slot this cron should have fired -- so a weekend
+// is not staleness and a dead Monday is caught by 07:xx. If this cron string
+// changes, HEARTBEAT_CRON in refresh_open_positions.py must change with it or
+// the checker will page on a schedule the job no longer keeps.
+//
 //   pm2 start ecosystem.open-positions.config.js && pm2 save
 module.exports = {
   apps: [{
