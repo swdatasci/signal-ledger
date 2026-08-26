@@ -244,14 +244,18 @@ def render_open_positions(rows: list[dict], as_of: str | None = None) -> str:
     as_of = as_of or _now_utc()
     if not rows:
         return ("# Open Positions\n\n"
-                "Current paper-trade book. Regenerated from the BROKER, not from\n"
-                "our own logs.\n"
+                "Alpaca paper-trade book. Regenerated from the BROKER, not from\n"
+                "our own logs. TradeStation accounts are not included here.\n"
                 f"Last updated: {as_of}\n\n"
                 "_(no open positions)_\n")
     head = ("# Open Positions\n\n"
-            "Current paper-trade book. Regenerated from the BROKER, not from our\n"
+            "Alpaca paper-trade book. Regenerated from the BROKER, not from our\n"
             "own logs -- a book built from what we *think* we sent can drift with\n"
-            "the log that produced it and agree while both are wrong.\n"
+            "the log that produced it and agree while both are wrong.\n\n"
+            "Scope: every active, trading-enabled Alpaca paper account.\n"
+            "TradeStation accounts are NOT covered -- the heading used to say\n"
+            "\"current paper-trade book\", which claimed a completeness this\n"
+            "producer has never had.\n"
             f"Last updated: {as_of}\n\n"
             "| Account | Symbol | Qty | Avg entry | Last | Unrealized |\n"
             "|---|---|---:|---:|---:|---:|\n")

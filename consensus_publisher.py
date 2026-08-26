@@ -38,9 +38,13 @@ except ImportError:
     print("[fatal] psycopg2 not installed — run: uv pip install psycopg2-binary")
     sys.exit(2)
 
+# NO PASSWORD IN THIS DSN. THIS REPO IS PUBLIC.
+# libpq reads ~/.pgpass (chmod 600) for the secret, so it lives on the box and
+# not in the tree. The line this needs:
+#   10.32.3.27:15433:pim_database:pim_user:<password>
 PG_URL = os.getenv(
     "REGIME_PG_URL",
-    "postgresql://pim_user:pim_secure_2025%21@10.32.3.27:15433/pim_database",
+    "postgresql://pim_user@10.32.3.27:15433/pim_database",
 )
 LEDGER_ROOT = Path("/home/rford/caelum/signal-ledger")
 CONSENSUS_DIR = LEDGER_ROOT / "consensus"
