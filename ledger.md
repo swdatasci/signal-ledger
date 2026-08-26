@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-26 14:55 UTC | llm-trader      | BUY      | AMAT   | conf=5 entry=479.67 target=488.0 init_stop=476.92 (min(atr=24.831×2.5=62.08, 0.33×upside=2.75))
 2026-08-26 14:55 UTC | llm-trader      | BUY      | ADP    | conf=6 entry=269.31 target=274.5 init_stop=267.6 (min(atr=6.118×2.5=15.30, 0.33×upside=1.71))
 2026-08-26 14:42 UTC | intraday-reversion | BUY      | BLK    | O=1175.71 entry=1172.35 target=1175.71 trail=$25.2
 2026-08-26 13:53 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=212.65 target=205.0 init_stop=197.44 (atr=6.083×2.5)
