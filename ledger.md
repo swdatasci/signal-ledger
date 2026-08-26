@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-26 13:53 UTC | llm-trader      | BUY      | MSFT   | conf=6 entry=495.7 target=510.0 init_stop=490.98 (min(atr=11.305×2.5=28.26, 0.33×upside=4.72))
 2026-08-26 13:53 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=311.5 target=318.5 init_stop=309.19 (min(atr=7.410×2.5=18.53, 0.33×upside=2.31))
 2026-08-26 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.15% hit=61% t=+7.2
 2026-08-25 19:50 UTC | llm-trader      | BUY      | MSFT   | conf=6 entry=490.6 target=505.0 init_stop=485.85 (min(atr=14.073×2.5=35.18, 0.33×upside=4.75))
