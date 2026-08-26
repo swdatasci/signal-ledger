@@ -216,3 +216,91 @@ if __name__ == "__main__":
     # Smoke test
     record("test", "SIGNAL", "AAPL", "smoke-test event from ledger_writer.py __main__")
     print("[ledger] smoke test complete — check ledger.md")
+
+# ---------------------------------------------------------------------------
+# open-positions.md -- THE PRODUCER THAT WAS NEVER WRITTEN
+# ---------------------------------------------------------------------------
+#
+# The skeleton commit f519266 (2026-07-19) created open-positions.md with the
+# placeholder "(pending first signal)" and shipped this module alongside it.
+# This module writes LEDGER_FILE and nothing else; no function anywhere in the
+# repo, or in any of the four executors that import it (gov-contracts-trader,
+# intraday-reversion, paper-trader, llm-trader), ever touched the position
+# book. `_run(["git","add","ledger.md"])` is hardcoded, so even a file written
+# by hand would not have been committed.
+#
+# So the file sat unchanged for five weeks while README.md advertised it, on a
+# PUBLIC repo, as "current live paper-trade book". Not stale -- never started.
+#
+# PAPER ACCOUNTS ONLY, ENFORCED, NOT ASSUMED. This publishes to a public
+# repository. Alpaca paper accounts start "PA"; TradeStation sim accounts start
+# "SIM". Anything else is refused outright rather than filtered, because the
+# failure mode of a filter that silently drops an unrecognised account is
+# publishing it.
+
+OPEN_POSITIONS_FILE = LEDGER_ROOT / "open-positions.md"
+
+_PAPER_PREFIXES = ("PA", "SIM")
+
+
+def _is_paper(account_number: str) -> bool:
+    a = (account_number or "").upper()
+    return bool(a) and a.startswith(_PAPER_PREFIXES)
+
+
+def render_open_positions(rows: list[dict], as_of: str | None = None) -> str:
+    """Markdown for the position book. Pure, so it is testable without a broker."""
+    as_of = as_of or _now_utc()
+    if not rows:
+        return ("# Open Positions\n\n"
+                "Current paper-trade book. Regenerated from the BROKER, not from\n"
+                "our own logs.\n"
+                f"Last updated: {as_of}\n\n"
+                "_(no open positions)_\n")
+    head = ("# Open Positions\n\n"
+            "Current paper-trade book. Regenerated from the BROKER, not from our\n"
+            "own logs -- a book built from what we *think* we sent can drift with\n"
+            "the log that produced it and agree while both are wrong.\n"
+            f"Last updated: {as_of}\n\n"
+            "| Account | Symbol | Qty | Avg entry | Last | Unrealized |\n"
+            "|---|---|---:|---:|---:|---:|\n")
+    body = "".join(
+        f"| {r.get('account','?')} | {r.get('symbol','?')} | {r.get('qty','')} | "
+        f"{r.get('avg_entry','')} | {r.get('last','')} | {r.get('unrealized','')} |\n"
+        for r in rows)
+    return head + body + f"\n{len(rows)} open position(s).\n"
+
+
+def update_open_positions(rows: list[dict], push: bool = True) -> bool:
+    """Rewrite + commit the position book. Returns True if it changed.
+
+    Refuses to publish a non-paper account. Returns False on refusal rather
+    than raising, because this is called from executors whose job is trading --
+    a bookkeeping failure must never take a trader down.
+    """
+    live = [r for r in rows if not _is_paper(str(r.get("account", "")))]
+    if live:
+        print(f"[ledger] REFUSING to publish {len(live)} non-paper account row(s): "
+              f"{sorted({str(r.get('account')) for r in live})}. "
+              f"open-positions.md is a PUBLIC file.")
+        return False
+    try:
+        new = render_open_positions(rows)
+        old = OPEN_POSITIONS_FILE.read_text() if OPEN_POSITIONS_FILE.exists() else ""
+        # Compare ignoring the timestamp line, or every run is a commit.
+        def _strip(t: str) -> str:
+            return "\n".join(l for l in t.splitlines()
+                              if not l.startswith("Last updated:"))
+        if _strip(new) == _strip(old):
+            return False
+        OPEN_POSITIONS_FILE.write_text(new)
+    except Exception as e:
+        print(f"[ledger] open-positions write failed: {e}")
+        return False
+
+    _run(["git", "add", "open-positions.md"], LEDGER_ROOT)
+    rc, _ = _run(["git", "commit", "-m",
+                  f"open-positions: {len(rows)} position(s)"], LEDGER_ROOT)
+    if rc == 0 and push:
+        _run(["git", "push"], LEDGER_ROOT)
+    return True
