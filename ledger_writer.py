@@ -25,6 +25,7 @@ Design choices:
 from __future__ import annotations
 
 import os
+import re
 import subprocess
 import urllib.parse
 import urllib.request
@@ -284,6 +285,53 @@ def _db_says_live(account_number: str) -> bool:
         return False
 
 
+# The DB `name` embeds the number and the tenants, e.g.
+#   "paper1-sim (PA3JEJDWV0EH) — PIM crypto_aitb_1m_wide + QC congress-dpi/..."
+# The published table wants the LABEL only: "paper1-sim". Everything from the
+# first " (" or " —" onward is detail for operators, not for a public book, and
+# the parenthesised number is exactly what we are not publishing.
+# WHITESPACE IS REQUIRED before the delimiter. A first attempt used
+# [(—-] with a bare hyphen in the class, which turned "paper1-sim" into
+# "paper1" -- the hyphen inside the label matched before the separator did.
+# Only " (" and " —"/" -" as SEPARATORS end the label.
+# Split ONLY on " (" or " —". Not on a hyphen at all.
+#  - a bare hyphen in the class turned "paper1-sim" into "paper1": the hyphen
+#    INSIDE the label matched before any separator did.
+#  - even requiring surrounding spaces, " - " turned "TS SIM - Margin" into
+#    "TS SIM", which is lossy and would collide with "TS SIM - Cash" the moment
+#    TradeStation accounts are added to this book.
+# The parenthesised account number and the em-dash tenant list are the only
+# things being stripped, so those are the only two separators recognised.
+_LABEL_TAIL = re.compile(r"\s+\(.*$|\s+—.*$")
+
+
+def account_label(account_number: str) -> str:
+    """Short human label for an account, or the number if there is no name.
+
+    FALLING BACK TO THE NUMBER IS DELIBERATE. These are paper accounts, so the
+    number is not sensitive -- the gate above is what guarantees that, and it
+    is unchanged and still keyed on the NUMBER, never on the label. A label
+    lookup is cosmetic, so it must never be able to block or alter publishing:
+    if the DB is unreachable the book still publishes, just less readably.
+    Making legibility load-bearing on a network call would be trading a real
+    property for a nice-to-have.
+    """
+    try:
+        import psycopg2
+        with psycopg2.connect(_PG_URL, connect_timeout=5) as conn:
+            with conn.cursor() as c:
+                c.execute("SELECT name FROM trading_accounts "
+                          "WHERE account_number = %s", (account_number,))
+                row = c.fetchone()
+        if row and row[0]:
+            label = _LABEL_TAIL.sub("", row[0]).strip()
+            if label:
+                return label
+    except Exception:
+        pass
+    return account_number
+
+
 def _is_paper(account_number: str) -> bool:
     if not _prefix_says_paper(account_number):
         return False
@@ -308,7 +356,8 @@ def render_open_positions(rows: list[dict], as_of: str | None = None) -> str:
             "Alpaca paper-trade book. Regenerated from the BROKER, not from our\n"
             "own logs -- a book built from what we *think* we sent can drift with\n"
             "the log that produced it and agree while both are wrong.\n\n"
-            "Scope: every active, trading-enabled Alpaca paper account.\n"
+            "Scope: every active, trading-enabled Alpaca paper account, shown\n"
+            "by name rather than by account number.\n"
             "TradeStation accounts are NOT covered -- the heading used to say\n"
             "\"current paper-trade book\", which claimed a completeness this\n"
             "producer has never had.\n"
@@ -316,7 +365,7 @@ def render_open_positions(rows: list[dict], as_of: str | None = None) -> str:
             "| Account | Symbol | Qty | Avg entry | Last | Unrealized |\n"
             "|---|---|---:|---:|---:|---:|\n")
     body = "".join(
-        f"| {r.get('account','?')} | {r.get('symbol','?')} | {r.get('qty','')} | "
+        f"| {account_label(str(r.get('account','?')))} | {r.get('symbol','?')} | {r.get('qty','')} | "
         f"{r.get('avg_entry','')} | {r.get('last','')} | {r.get('unrealized','')} |\n"
         for r in rows)
     return head + body + f"\n{len(rows)} open position(s).\n"
