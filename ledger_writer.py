@@ -228,15 +228,71 @@ def flush() -> None:
 # "SIM". Anything else is refused outright rather than filtered, because the
 # failure mode of a filter that silently drops an unrecognised account is
 # publishing it.
+#
+# TWO RULES, AND THE CRUDE ONE IS NOT RETIRED.
+# The prefix test is the primary gate: it needs no network, cannot fail open on
+# an outage, and is verified against all 8 real live account numbers (measured
+# 2026-08-26 -- every one refused, every one of the 6 real sim accounts
+# allowed). Its single assumption is a VENDOR FORMAT: that no broker will ever
+# issue a live account number beginning "PA" or "SIM". Alpaca live numbers are
+# digit strings today, so it holds today. It is still an assumption about
+# someone else's namespace, and this repo has been bitten by exactly that
+# before -- our vocabulary narrower than the vendor's.
+#
+# So the DB's own account_type is a CROSS-CHECK on top, not a replacement. If
+# trading_accounts says an account is live, it is refused no matter what its
+# prefix looks like. The prefix rule stays because a careful classifier that
+# replaces a crude one inherits the crude one's blind spots plus its own; kept
+# side by side, either can catch what the other misses.
+#
+# ORDER MATTERS: prefix first, DB second. A DB outage must not turn this into
+# "publish anything" -- on any lookup failure the prefix verdict stands alone,
+# which is exactly the protection that existed before the cross-check was
+# added, so an outage is a return to the prior guarantee and never a weakening.
+
+# No password: this repo is PUBLIC. libpq reads ~/.pgpass. See
+# refresh_open_positions.py for the full reasoning.
+_PG_URL = os.getenv("PIM_PG_URL",
+                    "postgresql://pim_user@10.32.3.27:15433/pim_database")
 
 OPEN_POSITIONS_FILE = LEDGER_ROOT / "open-positions.md"
 
 _PAPER_PREFIXES = ("PA", "SIM")
 
 
-def _is_paper(account_number: str) -> bool:
+def _prefix_says_paper(account_number: str) -> bool:
     a = (account_number or "").upper()
     return bool(a) and a.startswith(_PAPER_PREFIXES)
+
+
+def _db_says_live(account_number: str) -> bool:
+    """True only when the DB AFFIRMATIVELY says this account is not sim.
+
+    Unknown is not live: an account absent from trading_accounts, or a DB that
+    cannot be reached, returns False so the prefix rule decides alone. This
+    function can only ever ADD refusals, never remove one.
+    """
+    try:
+        import psycopg2
+        with psycopg2.connect(_PG_URL, connect_timeout=5) as conn:
+            with conn.cursor() as c:
+                c.execute("SELECT account_type FROM trading_accounts "
+                          "WHERE account_number = %s", (account_number,))
+                row = c.fetchone()
+                return bool(row) and (row[0] or "").lower() != "sim"
+    except Exception:
+        return False
+
+
+def _is_paper(account_number: str) -> bool:
+    if not _prefix_says_paper(account_number):
+        return False
+    if _db_says_live(account_number):
+        print(f"[ledger] {account_number} looks like a paper account by prefix "
+              f"but trading_accounts says it is NOT sim. Refusing. If this is "
+              f"wrong, the DB row is wrong -- fix the row, not this check.")
+        return False
+    return True
 
 
 def render_open_positions(rows: list[dict], as_of: str | None = None) -> str:
