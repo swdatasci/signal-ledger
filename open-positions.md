@@ -3,7 +3,7 @@
 Current paper-trade book. Regenerated from the BROKER, not from our
 own logs -- a book built from what we *think* we sent can drift with
 the log that produced it and agree while both are wrong.
-Last updated: 2026-08-26 18:29 UTC
+Last updated: 2026-08-26 18:30 UTC
 
 | Account | Symbol | Qty | Avg entry | Last | Unrealized |
 |---|---|---:|---:|---:|---:|
@@ -15,7 +15,7 @@ Last updated: 2026-08-26 18:29 UTC
 | PA3JEJDWV0EH | GLW | 14.833031135 | 185.673446 | 151.5125 | -506.710375 |
 | PA3JEJDWV0EH | HYLN | 667.187084823 | 4.396563 | 3.255 | -761.63609 |
 | PA3JEJDWV0EH | KD | 229.417416298 | 12.045816 | 12.715 | 153.522464 |
-| PA3JEJDWV0EH | KLAC | 12.307306946 | 258.7795 | 183.48 | -926.73406 |
+| PA3JEJDWV0EH | KLAC | 12.307306946 | 258.7795 | 183.47 | -926.857133 |
 | PA3JEJDWV0EH | SFM | 34.278082477 | 79.80814 | 85.19 | 184.479841 |
 | PA3JEJDWV0EH | SHEN | 208.138099231 | 13.369441 | 12.265 | -229.876251 |
 | PA3JEJDWV0EH | TTMI | 19.100773369 | 151.82736 | 119.92 | -609.455253 |
