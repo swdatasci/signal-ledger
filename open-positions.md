@@ -3,13 +3,13 @@
 Current paper-trade book. Regenerated from the BROKER, not from our
 own logs -- a book built from what we *think* we sent can drift with
 the log that produced it and agree while both are wrong.
-Last updated: 2026-08-26 15:29 UTC
+Last updated: 2026-08-26 15:30 UTC
 
 | Account | Symbol | Qty | Avg entry | Last | Unrealized |
 |---|---|---:|---:|---:|---:|
 | PA39DK9WGA5G | AMAT | 1 | 479.47 | 479.7 | 0.23 |
 | PA39DK9WGA5G | AVGO | 1 | 352.44 | 351.5278 | -0.9122 |
-| PA3JEJDWV0EH | CLS | 7.711593474 | 360.938373 | 309.125 | -399.563669 |
+| PA3JEJDWV0EH | CLS | 7.711593474 | 360.938373 | 308.81 | -401.992821 |
 | PA3JEJDWV0EH | FIRY | 299.42145515 | 9.142464 | 9.6546 | 153.344506 |
 | PA3JEJDWV0EH | GLW | 14.833031135 | 185.673446 | 149.235 | -540.492604 |
 | PA3JEJDWV0EH | HYLN | 667.187084823 | 4.396563 | 3.185 | -808.339186 |
