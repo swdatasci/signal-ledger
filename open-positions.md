@@ -9,7 +9,7 @@ by name rather than by account number.
 TradeStation accounts are NOT covered -- the heading used to say
 "current paper-trade book", which claimed a completeness this
 producer has never had.
-Last updated: 2026-08-27 12:59 UTC
+Last updated: 2026-08-27 13:00 UTC
 
 | Account | Symbol | Qty | Avg entry | Last | Unrealized |
 |---|---|---:|---:|---:|---:|
@@ -25,7 +25,7 @@ Last updated: 2026-08-27 12:59 UTC
 | paper1-sim | UP | 336.679878048 | 8.246884 | 5.06 | -1072.959716 |
 | paper3-sim | AMD | 1 | 483.483333 | 484.02 | 0.536667 |
 | paper3-sim | CSCO | 4 | 112.6475 | 112 | -2.59 |
-| paper3-sim | META | 1 | 576.555 | 574.1 | -2.455 |
+| paper3-sim | META | 1 | 576.555 | 574.05 | -2.505 |
 | paper2-sim | ACAD | 23.47370892 | 21.3 | 29.6 | 194.831784 |
 | paper2-sim | AOSL | 18.259094283 | 26.94 | 27.25 | 5.660319 |
 | paper2-sim | BMRC | 18.420306084 | 26.79 | 26.63 | -2.947249 |
@@ -36,7 +36,7 @@ Last updated: 2026-08-27 12:59 UTC
 | paper2-sim | EXP | 2.24795432 | 222.42 | 200.08 | -50.2193 |
 | paper2-sim | FIRY | 117.417498447 | 8.52 | 9.69 | 137.378473 |
 | paper2-sim | FSTR | 11.549780549 | 43.29 | 37.57 | -66.064745 |
-| paper2-sim | GOOG | 1.445400354 | 345.918 | 337.1 | -12.745541 |
+| paper2-sim | GOOG | 1.445400354 | 345.918 | 337.02 | -12.861173 |
 | paper2-sim | HUBB | 1.042249343 | 471.96 | 472.46 | 0.521125 |
 | paper2-sim | KD | 39.669354838 | 12.4 | 12.68 | 11.107419 |
 | paper2-sim | KGC | 16.261157024 | 30.25 | 31.93 | 27.318744 |
