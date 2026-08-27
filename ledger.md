@@ -7,6 +7,9 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-27 14:06 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=225.16 target=245.0 init_stop=218.61 (min(atr=6.879×2.5=17.20, 0.33×upside=6.55))
+2026-08-27 13:31 UTC | live-signal      | LONG-B   | ADBE   | DO: LONG-B ADBE | conf=high exp=+2.77% hit=60% t=+6.2
+2026-08-27 13:31 UTC | live-signal      | LONG-B   | META   | DO: LONG-B META | conf=high exp=+3.15% hit=61% t=+7.2
 2026-08-26 19:04 UTC | llm-trader      | BUY      | AMD    | conf=6 entry=482.75 target=505.0 init_stop=475.41 (min(atr=24.255×2.5=60.64, 0.33×upside=7.34))
 2026-08-26 19:03 UTC | llm-trader      | BUY      | CSCO   | conf=5 entry=112.65 target=118.5 init_stop=110.72 (min(atr=3.653×2.5=9.13, 0.33×upside=1.93))
 2026-08-26 17:00 UTC | llm-trader      | BUY      | CAT    | conf=5 entry=821.28 target=865.0 init_stop=806.85 (min(atr=30.781×2.5=76.95, 0.33×upside=14.43))
