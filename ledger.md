@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-27 15:11 UTC | llm-trader      | BUY      | CRWD   | conf=6 entry=223.67 target=240.0 init_stop=218.28 (min(atr=11.367×2.5=28.42, 0.33×upside=5.39))
 2026-08-27 15:11 UTC | llm-trader      | BUY      | CRM    | conf=7 entry=249.72 target=265.0 init_stop=244.68 (min(atr=10.262×2.5=25.66, 0.33×upside=5.04))
 2026-08-27 14:16 UTC | intraday-reversion | BUY      | UNP    | O=308.0 entry=306.73 target=308.0 trail=$6.96
 2026-08-27 14:13 UTC | intraday-reversion | BUY      | JPM    | O=354.68 entry=353.1 target=354.68 trail=$11.56
