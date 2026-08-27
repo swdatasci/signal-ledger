@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-27 16:13 UTC | llm-trader      | BUY      | CRWD   | conf=7 entry=222.15 target=235.0 init_stop=217.91 (min(atr=11.367×2.5=28.42, 0.33×upside=4.24))
 2026-08-27 15:11 UTC | llm-trader      | BUY      | ADSK   | conf=5 entry=271.135 target=285.0 init_stop=266.56 (min(atr=9.512×2.5=23.78, 0.33×upside=4.58))
 2026-08-27 15:11 UTC | llm-trader      | BUY      | CRWD   | conf=6 entry=223.67 target=240.0 init_stop=218.28 (min(atr=11.367×2.5=28.42, 0.33×upside=5.39))
 2026-08-27 15:11 UTC | llm-trader      | BUY      | CRM    | conf=7 entry=249.72 target=265.0 init_stop=244.68 (min(atr=10.262×2.5=25.66, 0.33×upside=5.04))
