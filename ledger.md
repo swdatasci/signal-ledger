@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-27 17:16 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=229.96 target=255.0 init_stop=221.7 (min(atr=7.176×2.5=17.94, 0.33×upside=8.26))
 2026-08-27 17:15 UTC | llm-trader      | BUY      | ARM    | conf=7 entry=250.34 target=275.0 init_stop=242.2 (min(atr=17.683×2.5=44.21, 0.33×upside=8.14))
 2026-08-27 17:15 UTC | llm-trader      | BUY      | CRM    | conf=8 entry=249.39 target=265.0 init_stop=244.24 (min(atr=10.262×2.5=25.66, 0.33×upside=5.15))
 2026-08-27 16:13 UTC | llm-trader      | BUY      | CRWD   | conf=7 entry=222.15 target=235.0 init_stop=217.91 (min(atr=11.367×2.5=28.42, 0.33×upside=4.24))
