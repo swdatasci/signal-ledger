@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-28 14:22 UTC | llm-trader      | BUY      | CRWD   | conf=7 entry=212.16 target=235.0 init_stop=204.62 (min(atr=11.937×2.5=29.84, 0.33×upside=7.54))
 2026-08-28 14:11 UTC | intraday-reversion | BUY      | XOM    | O=156.6 entry=155.71 target=156.6 trail=$3.28
 2026-08-28 13:31 UTC | live-signal      | LONG-B   | CRM    | DO: LONG-B CRM | conf=high exp=+3.35% hit=59% t=+4.3
 2026-08-28 12:59 UTC | live-signal      | LONG-B   | T-1xBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.18% (smaller than bear-regime version). | conf=low exp=+0.18% hit=57% t=+3.1
