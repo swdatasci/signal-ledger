@@ -9,7 +9,7 @@ by name rather than by account number.
 TradeStation accounts are NOT covered -- the heading used to say
 "current paper-trade book", which claimed a completeness this
 producer has never had.
-Last updated: 2026-08-28 12:59 UTC
+Last updated: 2026-08-28 13:00 UTC
 
 | Account | Symbol | Qty | Avg entry | Last | Unrealized |
 |---|---|---:|---:|---:|---:|
@@ -25,7 +25,7 @@ Last updated: 2026-08-28 12:59 UTC
 | paper1-sim | UP | 336.679878048 | 8.246884 | 4.96 | -1106.627704 |
 | paper3-sim | AMD | 1 | 472.13 | 472.2 | 0.07 |
 | paper3-sim | ARM | 2 | 250.56 | 252.75 | 4.38 |
-| paper3-sim | META | 1 | 577.12 | 573.03 | -4.09 |
+| paper3-sim | META | 1 | 577.12 | 573.1 | -4.02 |
 | paper3-sim | NVDA | 2 | 227.343333 | 227.88 | 1.073334 |
 | paper3-sim | PLTR | 2 | 183.87 | 185.47 | 3.2 |
 | paper2-sim | ACAD | 23.47370892 | 21.3 | 29.75 | 198.35284 |
