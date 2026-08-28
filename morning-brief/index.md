@@ -10,6 +10,7 @@ Unlisted daily aggregation of cross-strategy signals. Not linked from any public
 
 ## Archive (newest first)
 
+- [2026-08-28](./2026-08-28.md)
 - [2026-08-27](./2026-08-27.md)
 - [2026-08-26](./2026-08-26.md)
 - [2026-08-25](./2026-08-25.md)
