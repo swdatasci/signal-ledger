@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-31 16:05 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=314.62 target=328.0 init_stop=310.2 (min(atr=6.201×2.5=15.50, 0.33×upside=4.42))
 2026-08-31 16:05 UTC | llm-trader      | BUY      | AVGO   | conf=7 entry=368.11 target=385.0 init_stop=362.54 (min(atr=12.517×2.5=31.29, 0.33×upside=5.57))
 2026-08-31 16:04 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=219.15 target=235.0 init_stop=213.92 (min(atr=7.067×2.5=17.67, 0.33×upside=5.23))
 2026-08-31 15:02 UTC | llm-trader      | BUY      | CDW    | conf=6 entry=149.15 target=158.0 init_stop=146.23 (min(atr=7.538×2.5=18.84, 0.33×upside=2.92))
