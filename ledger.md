@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-31 16:13 UTC | intraday-reversion | BUY      | XOM    | O=159.94 entry=159.02 target=159.94 trail=$6.6
 2026-08-31 16:07 UTC | intraday-reversion | BUY      | CVX    | O=206.08 entry=204.37 target=206.08 trail=$9.36
 2026-08-31 16:05 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=314.62 target=328.0 init_stop=310.2 (min(atr=6.201×2.5=15.50, 0.33×upside=4.42))
 2026-08-31 16:05 UTC | llm-trader      | BUY      | AVGO   | conf=7 entry=368.11 target=385.0 init_stop=362.54 (min(atr=12.517×2.5=31.29, 0.33×upside=5.57))
