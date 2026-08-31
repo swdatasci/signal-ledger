@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-31 13:59 UTC | llm-trader      | BUY      | CRWD   | conf=6 entry=228.405 target=245.0 init_stop=222.93 (min(atr=12.143×2.5=30.36, 0.33×upside=5.48))
 2026-08-31 13:59 UTC | llm-trader      | BUY      | ARM    | conf=6 entry=242.69 target=260.0 init_stop=236.98 (min(atr=15.369×2.5=38.42, 0.33×upside=5.71))
 2026-08-31 13:59 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=218.395 target=235.0 init_stop=212.92 (min(atr=6.978×2.5=17.45, 0.33×upside=5.48))
 2026-08-31 13:14 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
