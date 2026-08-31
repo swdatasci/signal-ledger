@@ -7,6 +7,9 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-31 13:59 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=218.395 target=235.0 init_stop=212.92 (min(atr=6.978×2.5=17.45, 0.33×upside=5.48))
+2026-08-31 13:14 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
+2026-08-31 13:14 UTC | live-signal      | LONG-B   | H12-MONTHEND-LIFT | DO: BUY SPY at open, SELL at close. Universal effect — works in any regime. | conf=medium exp=+0.23% hit=55% t=+7.2
 2026-08-28 19:40 UTC | llm-trader      | BUY      | PLTR   | conf=7 entry=186.75 target=200.0 init_stop=182.38 (min(atr=9.030×2.5=22.57, 0.33×upside=4.37))
 2026-08-28 19:40 UTC | llm-trader      | BUY      | ARM    | conf=6 entry=240.27 target=255.0 init_stop=235.41 (min(atr=17.413×2.5=43.53, 0.33×upside=4.86))
 2026-08-28 18:37 UTC | llm-trader      | BUY      | ARM    | conf=6 entry=241.09 target=258.0 init_stop=235.51 (min(atr=17.413×2.5=43.53, 0.33×upside=5.58))
