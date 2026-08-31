@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-08-31 18:12 UTC | llm-trader      | BUY      | TGT    | conf=5 entry=161.63 target=168.2 init_stop=159.46 (min(atr=4.895×2.5=12.24, 0.33×upside=2.17))
 2026-08-31 18:12 UTC | llm-trader      | BUY      | KHC    | conf=6 entry=25.655 target=27.15 init_stop=25.16 (min(atr=0.716×2.5=1.79, 0.33×upside=0.49))
 2026-08-31 16:13 UTC | intraday-reversion | BUY      | XOM    | O=159.94 entry=159.02 target=159.94 trail=$6.6
 2026-08-31 16:07 UTC | intraday-reversion | BUY      | CVX    | O=206.08 entry=204.37 target=206.08 trail=$9.36
