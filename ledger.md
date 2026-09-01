@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-01 16:21 UTC | llm-trader      | BUY      | AAPL   | conf=7 entry=325.48 target=338.0 init_stop=321.33 (min(atr=6.754×2.5=16.88, 0.33×upside=4.13) | rescaled x0.99994 from fill 325.46 vs ref 325.48)
 2026-09-01 15:34 UTC | intraday-reversion | BUY      | MRK    | O=150.23 entry=149.26 target=150.23 trail=$5.8
 2026-09-01 15:20 UTC | llm-trader      | BUY      | MSFT   | conf=6 entry=500.55 target=518.0 init_stop=495.19 (min(atr=9.969×2.5=24.92, 0.33×upside=5.76) | rescaled x1.00080 from fill 500.95 vs ref 500.55)
 2026-09-01 15:19 UTC | llm-trader      | BUY      | AAPL   | conf=7 entry=324.43 target=336.5 init_stop=320.97 (min(atr=6.656×2.5=16.64, 0.33×upside=3.98) | rescaled x1.00163 from fill 324.96 vs ref 324.43)
