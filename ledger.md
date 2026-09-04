@@ -7,6 +7,10 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-04 14:02 UTC | intraday-reversion | BUY      | JPM    | O=361.0 entry=359.99 target=361.0 trail=$7.44
+2026-09-04 13:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+2.77% hit=60% t=+6.2
+2026-09-04 13:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.15% hit=61% t=+7.2
+2026-09-04 13:00 UTC | live-signal      | LONG-B   | FRIDAYxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.31%. | conf=high exp=+0.31% hit=59% t=+9.6
 2026-09-03 19:12 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=327.48 target=345.0 init_stop=321.75 (min(atr=6.672×2.5=16.68, 0.33×upside=5.78) | rescaled x1.00015 from fill 327.53 vs ref 327.48)
 2026-09-03 19:12 UTC | llm-trader      | BUY      | TSLA   | conf=7 entry=380.74 target=410.0 init_stop=371.31 (min(atr=13.732×2.5=34.33, 0.33×upside=9.66) | rescaled x1.00063 from fill 380.98 vs ref 380.74)
 2026-09-03 18:10 UTC | llm-trader      | BUY      | MSFT   | conf=7 entry=514.69 target=540.0 init_stop=506.44 (min(atr=10.309×2.5=25.77, 0.33×upside=8.35) | rescaled x1.00019 from fill 514.79 vs ref 514.69)
