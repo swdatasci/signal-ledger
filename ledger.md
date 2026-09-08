@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-08 17:29 UTC | llm-trader      | BUY      | BKNG   | conf=7 entry=188.66 target=202.0 init_stop=176.55 (min(atr=6.469×2.5=16.17, 0.33×upside=4.40) | rescaled x0.95818 from fill 180.77 vs ref 188.66)
 2026-09-08 16:56 UTC | intraday-reversion | BUY      | XOM    | O=160.61 entry=158.89 target=160.61 trail=$10.0
 2026-09-08 16:45 UTC | intraday-reversion | BUY      | CVX    | O=211.25 entry=209.87 target=211.25 trail=$7.92
 2026-09-08 16:24 UTC | llm-trader      | BUY      | QCOM   | conf=6 entry=180.83 target=192.0 init_stop=173.25 (min(atr=5.664×2.5=14.16, 0.33×upside=3.69) | rescaled x0.97805 from fill 176.86 vs ref 180.83)
