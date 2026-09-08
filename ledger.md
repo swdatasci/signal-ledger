@@ -7,6 +7,12 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-08 14:19 UTC | llm-trader      | BUY      | QCOM   | conf=6 entry=180.85 target=192.5 init_stop=173.44 (min(atr=5.664×2.5=14.16, 0.33×upside=3.84) | rescaled x0.97982 from fill 177.20 vs ref 180.85)
+2026-09-08 13:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-09-07 13:31 UTC | live-signal      | LONG-B   | TSLA   | DO: LONG-B TSLA | conf=high exp=+2.77% hit=60% t=+6.2
+2026-09-07 13:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.15% hit=61% t=+7.2
+2026-09-07 13:31 UTC | live-signal      | LONG-B   | ADBE   | DO: LONG-B ADBE | conf=high exp=+2.77% hit=60% t=+6.2
+2026-09-07 13:00 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-09-04 18:24 UTC | llm-trader      | BUY      | AMD    | conf=6 entry=472.0 target=505.0 init_stop=461.17 (min(atr=18.300×2.5=45.75, 0.33×upside=10.89) | rescaled x1.00013 from fill 472.06 vs ref 472.00)
 2026-09-04 17:22 UTC | llm-trader      | BUY      | MSFT   | conf=5 entry=501.07 target=525.0 init_stop=492.88 (min(atr=10.215×2.5=25.54, 0.33×upside=7.90) | rescaled x0.99942 from fill 500.78 vs ref 501.07)
 2026-09-04 17:21 UTC | llm-trader      | BUY      | ARM    | conf=6 entry=251.33 target=270.0 init_stop=244.9 (min(atr=13.972×2.5=34.93, 0.33×upside=6.16) | rescaled x0.99889 from fill 251.05 vs ref 251.33)
