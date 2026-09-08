@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-08 16:45 UTC | intraday-reversion | BUY      | CVX    | O=211.25 entry=209.87 target=211.25 trail=$7.92
 2026-09-08 16:24 UTC | llm-trader      | BUY      | QCOM   | conf=6 entry=180.83 target=192.0 init_stop=173.25 (min(atr=5.664×2.5=14.16, 0.33×upside=3.69) | rescaled x0.97805 from fill 176.86 vs ref 180.83)
 2026-09-08 14:19 UTC | llm-trader      | BUY      | QCOM   | conf=6 entry=180.85 target=192.5 init_stop=173.44 (min(atr=5.664×2.5=14.16, 0.33×upside=3.84) | rescaled x0.97982 from fill 177.20 vs ref 180.85)
 2026-09-08 13:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.35% hit=59% t=+4.3
