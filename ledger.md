@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-08 19:33 UTC | llm-trader      | BUY      | AMD    | conf=7 entry=506.0 target=538.0 init_stop=495.13 (min(atr=19.900×2.5=49.75, 0.33×upside=10.56) | rescaled x0.99937 from fill 505.68 vs ref 506.00)
 2026-09-08 17:29 UTC | llm-trader      | BUY      | AMGN   | conf=6 entry=384.13 target=405.0 init_stop=391.31 (min(atr=11.480×2.5=28.70, 0.33×upside=6.89) | rescaled x1.03731 from fill 398.46 vs ref 384.13)
 2026-09-08 17:29 UTC | llm-trader      | BUY      | BKNG   | conf=7 entry=188.66 target=202.0 init_stop=176.55 (min(atr=6.469×2.5=16.17, 0.33×upside=4.40) | rescaled x0.95818 from fill 180.77 vs ref 188.66)
 2026-09-08 16:56 UTC | intraday-reversion | BUY      | XOM    | O=160.61 entry=158.89 target=160.61 trail=$10.0
