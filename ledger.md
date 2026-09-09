@@ -7,6 +7,8 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-09 14:24 UTC | llm-trader      | BUY      | ABNB   | conf=5 entry=163.54 target=172.0 init_stop=168.51 (min(atr=5.181×2.5=12.95, 0.33×upside=2.79) | rescaled x1.04825 from fill 171.43 vs ref 163.54)
+2026-09-09 13:31 UTC | live-signal      | LONG-B   | META   | DO: LONG-B META | conf=high exp=+3.35% hit=59% t=+4.3
 2026-09-08 19:33 UTC | llm-trader      | BUY      | INTC   | conf=6 entry=105.09 target=112.0 init_stop=102.68 (min(atr=4.905×2.5=12.26, 0.33×upside=2.28) | rescaled x0.99876 from fill 104.96 vs ref 105.09)
 2026-09-08 19:33 UTC | llm-trader      | BUY      | META   | conf=7 entry=613.93 target=645.0 init_stop=604.62 (min(atr=18.823×2.5=47.06, 0.33×upside=10.25) | rescaled x1.00156 from fill 614.89 vs ref 613.93)
 2026-09-08 19:33 UTC | llm-trader      | BUY      | AMD    | conf=7 entry=506.0 target=538.0 init_stop=495.13 (min(atr=19.900×2.5=49.75, 0.33×upside=10.56) | rescaled x0.99937 from fill 505.68 vs ref 506.00)
