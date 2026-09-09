@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-09 16:32 UTC | llm-trader      | BUY      | CMCSA  | conf=5 entry=24.29 target=27.5 init_stop=23.26 (min(atr=0.701×2.5=1.75, 0.33×upside=1.06) | rescaled x1.00124 from fill 24.32 vs ref 24.29)
 2026-09-09 16:32 UTC | llm-trader      | BUY      | ABNB   | conf=5 entry=169.77 target=185.0 init_stop=164.68 (min(atr=5.206×2.5=13.02, 0.33×upside=5.03) | rescaled x0.99965 from fill 169.71 vs ref 169.77)
 2026-09-09 16:32 UTC | llm-trader      | BUY      | SBUX   | conf=6 entry=104.32 target=112.5 init_stop=97.23 (min(atr=2.387×2.5=5.97, 0.33×upside=2.70) | rescaled x0.95677 from fill 99.81 vs ref 104.32)
 2026-09-09 15:29 UTC | llm-trader      | BUY      | ABNB   | conf=6 entry=169.79 target=183.5 init_stop=165.11 (min(atr=5.206×2.5=13.02, 0.33×upside=4.52) | rescaled x0.99906 from fill 169.63 vs ref 169.79)
