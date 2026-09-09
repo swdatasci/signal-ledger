@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-09 15:29 UTC | llm-trader      | BUY      | ABNB   | conf=6 entry=169.79 target=183.5 init_stop=165.11 (min(atr=5.206×2.5=13.02, 0.33×upside=4.52) | rescaled x0.99906 from fill 169.63 vs ref 169.79)
 2026-09-09 14:36 UTC | intraday-reversion | BUY      | AAPL   | O=315.49 entry=313.84 target=315.49 trail=$8.36
 2026-09-09 14:24 UTC | llm-trader      | BUY      | ABNB   | conf=5 entry=163.54 target=172.0 init_stop=168.51 (min(atr=5.181×2.5=12.95, 0.33×upside=2.79) | rescaled x1.04825 from fill 171.43 vs ref 163.54)
 2026-09-09 13:31 UTC | live-signal      | LONG-B   | META   | DO: LONG-B META | conf=high exp=+3.35% hit=59% t=+4.3
