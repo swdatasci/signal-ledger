@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-10 14:51 UTC | llm-trader      | BUY      | ABNB   | conf=6 entry=164.12 target=173.5 init_stop=166.54 (min(atr=5.103×2.5=12.76, 0.33×upside=3.10) | rescaled x1.03428 from fill 169.75 vs ref 164.12)
 2026-09-10 14:08 UTC | intraday-reversion | BUY      | BAC    | O=62.65 entry=62.43 target=62.65 trail=$1.44
 2026-09-10 13:49 UTC | llm-trader      | BUY      | META   | conf=5 entry=649.75 target=685.0 init_stop=632.9 (min(atr=19.996×2.5=49.99, 0.33×upside=11.63) | rescaled x0.99181 from fill 644.43 vs ref 649.75)
 2026-09-10 13:49 UTC | llm-trader      | BUY      | AMD    | conf=6 entry=509.73 target=545.0 init_stop=497.4 (min(atr=19.698×2.5=49.25, 0.33×upside=11.64) | rescaled x0.99861 from fill 509.02 vs ref 509.73)
