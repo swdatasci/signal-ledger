@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-10 16:55 UTC | llm-trader      | BUY      | QCOM   | conf=6 entry=179.58 target=205.0 init_stop=173.43 (min(atr=6.172×2.5=15.43, 0.33×upside=8.39) | rescaled x1.01309 from fill 181.93 vs ref 179.58)
 2026-09-10 16:55 UTC | llm-trader      | BUY      | META   | conf=7 entry=651.56 target=710.0 init_stop=633.38 (min(atr=20.311×2.5=50.78, 0.33×upside=19.29) | rescaled x1.00175 from fill 652.70 vs ref 651.56)
 2026-09-10 16:29 UTC | intraday-reversion | BUY      | AMD    | O=509.07 entry=503.96 target=509.07 trail=$29.04
 2026-09-10 15:53 UTC | llm-trader      | BUY      | META   | conf=6 entry=653.47 target=695.0 init_stop=639.52 (min(atr=20.311×2.5=50.78, 0.33×upside=13.70) | rescaled x0.99960 from fill 653.21 vs ref 653.47)
