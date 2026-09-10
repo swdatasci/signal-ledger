@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-10 15:53 UTC | llm-trader      | BUY      | BKR    | conf=7 entry=59.195 target=62.5 init_stop=58.16 (min(atr=1.812×2.5=4.53, 0.33×upside=1.09) | rescaled x1.00110 from fill 59.26 vs ref 59.20)
 2026-09-10 14:51 UTC | llm-trader      | BUY      | GEHC   | conf=6 entry=66.31 target=70.5 init_stop=63.22 (min(atr=1.579×2.5=3.95, 0.33×upside=1.38) | rescaled x0.97361 from fill 64.56 vs ref 66.31)
 2026-09-10 14:51 UTC | llm-trader      | BUY      | ABNB   | conf=6 entry=164.12 target=173.5 init_stop=166.54 (min(atr=5.103×2.5=12.76, 0.33×upside=3.10) | rescaled x1.03428 from fill 169.75 vs ref 164.12)
 2026-09-10 14:08 UTC | intraday-reversion | BUY      | BAC    | O=62.65 entry=62.43 target=62.65 trail=$1.44
