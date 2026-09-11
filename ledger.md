@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-11 14:17 UTC | intraday-reversion | BUY      | BAC    | O=63.11 entry=62.65 target=63.11 trail=$2.88
 2026-09-11 14:05 UTC | llm-trader      | BUY      | QCOM   | conf=7 entry=179.54 target=186.5 init_stop=179.67 (min(atr=6.487×2.5=16.22, 0.33×upside=2.30) | rescaled x1.01370 from fill 182.00 vs ref 179.54)
 2026-09-11 13:00 UTC | live-signal      | LONG-B   | FRIDAYxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.31%. | conf=high exp=+0.31% hit=59% t=+9.6
 2026-09-10 20:02 UTC | llm-trader      | BUY      | ABNB   | conf=5 entry=167.71 target=182.0 init_stop=162.99 [parent placed, awaiting fill]
