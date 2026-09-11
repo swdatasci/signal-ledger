@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-11 19:15 UTC | llm-trader      | BUY      | IBM    | conf=6 entry=235.42 target=250.0 init_stop=236.98 (min(atr=6.368×2.5=15.92, 0.33×upside=4.81) | rescaled x1.02761 from fill 241.92 vs ref 235.42)
 2026-09-11 18:13 UTC | llm-trader      | BUY      | QCOM   | conf=7 entry=178.67 target=195.0 init_stop=178.23 (min(atr=6.501×2.5=16.25, 0.33×upside=5.39) | rescaled x1.02854 from fill 183.77 vs ref 178.67)
 2026-09-11 16:09 UTC | llm-trader      | BUY      | BKR    | conf=6 entry=57.67 target=62.5 init_stop=56.09 (min(atr=1.867×2.5=4.67, 0.33×upside=1.59) | rescaled x1.00017 from fill 57.68 vs ref 57.67)
 2026-09-11 15:37 UTC | intraday-reversion | BUY      | JNJ    | O=268.03 entry=266.64 target=268.03 trail=$8.96
