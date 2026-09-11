@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-11 15:37 UTC | intraday-reversion | BUY      | JNJ    | O=268.03 entry=266.64 target=268.03 trail=$8.96
 2026-09-11 15:07 UTC | llm-trader      | BUY      | BKR    | conf=7 entry=59.14 target=62.5 init_stop=56.79 (min(atr=1.859×2.5=4.65, 0.33×upside=1.11) | rescaled x0.97869 from fill 57.88 vs ref 59.14)
 2026-09-11 15:01 UTC | intraday-reversion | BUY      | MSFT   | O=495.51 entry=492.71 target=495.51 trail=$13.84
 2026-09-11 14:52 UTC | intraday-reversion | BUY      | XOM    | O=165.07 entry=164.63 target=165.07 trail=$5.6
