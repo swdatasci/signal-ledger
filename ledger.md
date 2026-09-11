@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-11 15:01 UTC | intraday-reversion | BUY      | MSFT   | O=495.51 entry=492.71 target=495.51 trail=$13.84
 2026-09-11 14:52 UTC | intraday-reversion | BUY      | XOM    | O=165.07 entry=164.63 target=165.07 trail=$5.6
 2026-09-11 14:17 UTC | intraday-reversion | BUY      | BAC    | O=63.11 entry=62.65 target=63.11 trail=$2.88
 2026-09-11 14:05 UTC | llm-trader      | BUY      | QCOM   | conf=7 entry=179.54 target=186.5 init_stop=179.67 (min(atr=6.487×2.5=16.22, 0.33×upside=2.30) | rescaled x1.01370 from fill 182.00 vs ref 179.54)
