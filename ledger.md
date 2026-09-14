@@ -7,6 +7,13 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-14 15:24 UTC | intraday-reversion | BUY      | MA     | O=575.98 entry=574.57 target=575.98 trail=$11.68
+2026-09-14 13:31 UTC | live-signal      | LONG-B   | ADBE   | DO: LONG-B ADBE | conf=high exp=+3.15% hit=61% t=+7.2
+2026-09-14 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.55% hit=59% t=+4.3
+2026-09-14 13:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-09-14 13:31 UTC | live-signal      | LONG-B   | QCOM   | DO: LONG-B QCOM | conf=high exp=+3.55% hit=59% t=+4.3
+2026-09-14 13:31 UTC | live-signal      | LONG-B   | TXN    | DO: LONG-B TXN | conf=high exp=+2.77% hit=60% t=+6.2
+2026-09-14 13:18 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-09-11 19:15 UTC | llm-trader      | BUY      | IBM    | conf=6 entry=235.42 target=250.0 init_stop=236.98 (min(atr=6.368×2.5=15.92, 0.33×upside=4.81) | rescaled x1.02761 from fill 241.92 vs ref 235.42)
 2026-09-11 18:13 UTC | llm-trader      | BUY      | QCOM   | conf=7 entry=178.67 target=195.0 init_stop=178.23 (min(atr=6.501×2.5=16.25, 0.33×upside=5.39) | rescaled x1.02854 from fill 183.77 vs ref 178.67)
 2026-09-11 16:09 UTC | llm-trader      | BUY      | BKR    | conf=6 entry=57.67 target=62.5 init_stop=56.09 (min(atr=1.867×2.5=4.67, 0.33×upside=1.59) | rescaled x1.00017 from fill 57.68 vs ref 57.67)
