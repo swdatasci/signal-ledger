@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-14 16:37 UTC | llm-trader      | BUY      | IBM    | conf=7 entry=250.6 target=268.0 init_stop=244.55 (min(atr=6.519×2.5=16.30, 0.33×upside=5.74) | rescaled x0.99872 from fill 250.28 vs ref 250.60)
 2026-09-14 15:35 UTC | llm-trader      | BUY      | IBM    | conf=6 entry=235.21 target=247.89 init_stop=243.15 (min(atr=6.438×2.5=16.10, 0.33×upside=4.18) | rescaled x1.05246 from fill 247.55 vs ref 235.21)
 2026-09-14 15:24 UTC | intraday-reversion | BUY      | MA     | O=575.98 entry=574.57 target=575.98 trail=$11.68
 2026-09-14 13:31 UTC | live-signal      | LONG-B   | ADBE   | DO: LONG-B ADBE | conf=high exp=+3.15% hit=61% t=+7.2
