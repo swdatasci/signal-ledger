@@ -7,6 +7,15 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-15 13:46 UTC | llm-trader      | BUY      | BAC    | conf=6 entry=59.82 target=63.5 init_stop=58.5 (min(atr=1.281×2.5=3.20, 0.33×upside=1.21) | rescaled x0.99810 from fill 59.71 vs ref 59.82)
+2026-09-15 13:31 UTC | live-signal      | LONG-B   | NVDA   | DO: LONG-B NVDA | conf=high exp=+2.77% hit=60% t=+6.2
+2026-09-15 13:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+2.77% hit=60% t=+6.2
+2026-09-15 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.55% hit=59% t=+4.3
+2026-09-15 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.55% hit=59% t=+4.3
+2026-09-15 13:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-09-15 13:31 UTC | live-signal      | LONG-B   | CRM    | DO: LONG-B CRM | conf=high exp=+3.15% hit=61% t=+7.2
+2026-09-15 13:31 UTC | live-signal      | LONG-B   | TXN    | DO: LONG-B TXN | conf=high exp=+2.77% hit=60% t=+6.2
+2026-09-15 13:31 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+2.77% hit=60% t=+6.2
 2026-09-14 19:44 UTC | llm-trader      | BUY      | BAC    | conf=7 entry=60.78 target=64.2 init_stop=58.28 (min(atr=1.298×2.5=3.25, 0.33×upside=1.13) | rescaled x0.97697 from fill 59.38 vs ref 60.78)
 2026-09-14 18:41 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=334.38 target=352.0 init_stop=328.61 (min(atr=7.624×2.5=19.06, 0.33×upside=5.81) | rescaled x1.00012 from fill 334.42 vs ref 334.38)
 2026-09-14 18:41 UTC | llm-trader      | BUY      | BKR    | conf=6 entry=56.53 target=61.5 init_stop=54.89 (min(atr=1.963×2.5=4.91, 0.33×upside=1.64) | fill matched reference; no rescale needed)
