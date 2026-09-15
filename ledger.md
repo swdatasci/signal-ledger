@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-15 15:50 UTC | llm-trader      | BUY      | MS     | conf=7 entry=201.23 target=210.0 init_stop=198.35 (min(atr=5.244×2.5=13.11, 0.33×upside=2.89) | rescaled x1.00005 from fill 201.24 vs ref 201.23)
 2026-09-15 13:46 UTC | llm-trader      | BUY      | BAC    | conf=6 entry=59.82 target=63.5 init_stop=58.5 (min(atr=1.281×2.5=3.20, 0.33×upside=1.21) | rescaled x0.99810 from fill 59.71 vs ref 59.82)
 2026-09-15 13:31 UTC | live-signal      | LONG-B   | NVDA   | DO: LONG-B NVDA | conf=high exp=+2.77% hit=60% t=+6.2
 2026-09-15 13:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+2.77% hit=60% t=+6.2
