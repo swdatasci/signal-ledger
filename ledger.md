@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-15 17:55 UTC | llm-trader      | BUY      | GS     | conf=7 entry=960.52 target=1015.0 init_stop=942.81 (min(atr=26.311×2.5=65.78, 0.33×upside=17.98) | rescaled x1.00029 from fill 960.80 vs ref 960.52)
 2026-09-15 15:51 UTC | llm-trader      | BUY      | GS     | conf=6 entry=959.1 target=1010.0 init_stop=943.09 (min(atr=26.193×2.5=65.48, 0.33×upside=16.80) | rescaled x1.00083 from fill 959.90 vs ref 959.10)
 2026-09-15 15:50 UTC | llm-trader      | BUY      | MS     | conf=7 entry=201.23 target=210.0 init_stop=198.35 (min(atr=5.244×2.5=13.11, 0.33×upside=2.89) | rescaled x1.00005 from fill 201.24 vs ref 201.23)
 2026-09-15 13:46 UTC | llm-trader      | BUY      | BAC    | conf=6 entry=59.82 target=63.5 init_stop=58.5 (min(atr=1.281×2.5=3.20, 0.33×upside=1.21) | rescaled x0.99810 from fill 59.71 vs ref 59.82)
