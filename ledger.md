@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-16 16:11 UTC | llm-trader      | BUY      | FANG   | conf=5 entry=193.605 target=215.0 init_stop=186.63 (min(atr=6.799×2.5=17.00, 0.33×upside=7.06) | rescaled x1.00049 from fill 193.70 vs ref 193.60)
 2026-09-16 14:19 UTC | intraday-reversion | BUY      | VZ     | O=51.25 entry=51.07 target=51.25 trail=$1.24
 2026-09-16 14:04 UTC | llm-trader      | BUY      | BAC    | conf=6 entry=59.27 target=62.5 init_stop=57.83 (min(atr=1.287×2.5=3.22, 0.33×upside=1.07) | rescaled x0.99359 from fill 58.89 vs ref 59.27)
 2026-09-16 14:04 UTC | llm-trader      | BUY      | GS     | conf=6 entry=981.46 target=1025.0 init_stop=957.04 (min(atr=25.228×2.5=63.07, 0.33×upside=14.37) | rescaled x0.98961 from fill 971.26 vs ref 981.46)
