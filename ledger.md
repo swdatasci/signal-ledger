@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-16 14:04 UTC | llm-trader      | BUY      | AVGO   | conf=7 entry=342.3 target=365.0 init_stop=334.91 (min(atr=10.055×2.5=25.14, 0.33×upside=7.49) | rescaled x1.00029 from fill 342.40 vs ref 342.30)
 2026-09-15 20:01 UTC | llm-trader      | BUY      | CRWD   | conf=7 entry=242.04 target=265.0 init_stop=234.46 [parent placed, awaiting fill]
 2026-09-15 17:56 UTC | llm-trader      | BUY      | MS     | conf=6 entry=202.58 target=220.0 init_stop=196.83 (min(atr=5.265×2.5=13.16, 0.33×upside=5.75) | fill matched reference; no rescale needed)
 2026-09-15 17:55 UTC | llm-trader      | BUY      | GS     | conf=7 entry=960.52 target=1015.0 init_stop=942.81 (min(atr=26.311×2.5=65.78, 0.33×upside=17.98) | rescaled x1.00029 from fill 960.80 vs ref 960.52)
