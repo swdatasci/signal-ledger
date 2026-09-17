@@ -7,6 +7,10 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-17 16:30 UTC | llm-trader      | BUY      | CRWD   | conf=6 entry=246.66 target=275.0 init_stop=236.8 (min(atr=14.004×2.5=35.01, 0.33×upside=9.35) | rescaled x0.99787 from fill 246.13 vs ref 246.66)
+2026-09-17 13:32 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.15% hit=61% t=+7.2
+2026-09-17 13:32 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+3.15% hit=61% t=+7.2
+2026-09-17 13:32 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.15% hit=61% t=+7.2
 2026-09-16 18:18 UTC | llm-trader      | BUY      | AMD    | conf=6 entry=504.47 target=535.0 init_stop=510.85 (min(atr=20.068×2.5=50.17, 0.33×upside=10.07) | rescaled x1.03328 from fill 521.26 vs ref 504.47)
 2026-09-16 18:18 UTC | llm-trader      | BUY      | BAC    | conf=7 entry=60.95 target=64.5 init_stop=57.09 (min(atr=1.287×2.5=3.22, 0.33×upside=1.17) | rescaled x0.95505 from fill 58.21 vs ref 60.95)
 2026-09-16 17:16 UTC | llm-trader      | BUY      | BRK.B  | conf=6 entry=503.42 target=518.0 init_stop=514.66 (min(atr=5.196×2.5=12.99, 0.33×upside=4.81) | rescaled x1.03218 from fill 519.62 vs ref 503.42)
