@@ -7,6 +7,10 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-18 13:52 UTC | llm-trader      | BUY      | TMUS   | conf=6 entry=165.125 target=174.0 init_stop=162.16 (min(atr=4.741×2.5=11.85, 0.33×upside=2.93) | rescaled x0.99973 from fill 165.08 vs ref 165.12)
+2026-09-18 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.15% hit=61% t=+7.2
+2026-09-18 13:31 UTC | live-signal      | LONG-B   | NFLX   | DO: LONG-B NFLX | conf=high exp=+3.55% hit=59% t=+4.3
+2026-09-18 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.15% hit=61% t=+7.2
 2026-09-17 18:34 UTC | llm-trader      | BUY      | CRWD   | conf=6 entry=246.05 target=275.0 init_stop=236.86 (min(atr=14.004×2.5=35.01, 0.33×upside=9.55) | rescaled x1.00150 from fill 246.42 vs ref 246.05)
 2026-09-17 18:34 UTC | llm-trader      | BUY      | AMD    | conf=7 entry=544.8 target=590.0 init_stop=530.05 (min(atr=21.574×2.5=53.94, 0.33×upside=14.92) | rescaled x1.00031 from fill 544.97 vs ref 544.80)
 2026-09-17 16:30 UTC | llm-trader      | BUY      | AMD    | conf=7 entry=550.28 target=610.0 init_stop=530.42 (min(atr=21.574×2.5=53.94, 0.33×upside=19.71) | rescaled x0.99971 from fill 550.12 vs ref 550.28)
