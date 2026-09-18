@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-18 13:52 UTC | llm-trader      | BUY      | EBAY   | conf=5 entry=108.15 target=114.0 init_stop=111.25 (min(atr=3.398×2.5=8.50, 0.33×upside=1.93) | rescaled x1.04734 from fill 113.27 vs ref 108.15)
 2026-09-18 13:52 UTC | llm-trader      | BUY      | TMUS   | conf=6 entry=165.125 target=174.0 init_stop=162.16 (min(atr=4.741×2.5=11.85, 0.33×upside=2.93) | rescaled x0.99973 from fill 165.08 vs ref 165.12)
 2026-09-18 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.15% hit=61% t=+7.2
 2026-09-18 13:31 UTC | live-signal      | LONG-B   | NFLX   | DO: LONG-B NFLX | conf=high exp=+3.55% hit=59% t=+4.3
