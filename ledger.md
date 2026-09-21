@@ -7,6 +7,10 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-21 15:30 UTC | llm-trader      | BUY      | PEP    | conf=6 entry=128.695 target=137.5 init_stop=125.54 (min(atr=2.085×2.5=5.21, 0.33×upside=2.91) | rescaled x0.99802 from fill 128.44 vs ref 128.69)
+2026-09-21 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.35% hit=59% t=+4.3
+2026-09-21 13:01 UTC | live-signal      | LONG-B   | POST-OPEXxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.46%. Strong signal, act on it. | conf=high exp=+0.46% hit=63% t=+8.7
+2026-09-21 13:01 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-09-18 18:03 UTC | llm-trader      | BUY      | GM     | conf=6 entry=83.14 target=86.5 init_stop=81.12 (min(atr=2.503×2.5=6.26, 0.33×upside=1.11) | rescaled x0.98893 from fill 82.22 vs ref 83.14)
 2026-09-18 16:00 UTC | llm-trader      | BUY      | VZ     | conf=6 entry=45.9 target=51.5 init_stop=46.08 (min(atr=0.991×2.5=2.48, 0.33×upside=1.85) | rescaled x1.04619 from fill 48.02 vs ref 45.90)
 2026-09-18 14:46 UTC | intraday-reversion | BUY      | AMD    | O=547.6 entry=544.82 target=547.6 trail=$15.04
