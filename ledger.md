@@ -7,6 +7,8 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-22 14:41 UTC | llm-trader      | BUY      | FANG   | conf=6 entry=194.73 target=206.0 init_stop=183.19 (min(atr=6.162×2.5=15.40, 0.33×upside=3.72) | rescaled x0.95907 from fill 186.76 vs ref 194.73)
+2026-09-22 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.35% hit=59% t=+4.3
 2026-09-21 19:38 UTC | llm-trader      | BUY      | WBD    | conf=6 entry=29.76 target=34.0 init_stop=29.47 (min(atr=0.519×2.5=1.30, 0.33×upside=1.40) | rescaled x1.03562 from fill 30.82 vs ref 29.76)
 2026-09-21 15:30 UTC | llm-trader      | BUY      | PEP    | conf=6 entry=128.695 target=137.5 init_stop=125.54 (min(atr=2.085×2.5=5.21, 0.33×upside=2.91) | rescaled x0.99802 from fill 128.44 vs ref 128.69)
 2026-09-21 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.35% hit=59% t=+4.3
