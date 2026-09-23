@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-23 18:06 UTC | llm-trader      | BUY      | WBD    | conf=6 entry=30.705 target=34.5 init_stop=29.54 (min(atr=0.466×2.5=1.17, 0.33×upside=1.25) | rescaled x1.00016 from fill 30.71 vs ref 30.70)
 2026-09-23 18:06 UTC | llm-trader      | BUY      | ARM    | conf=8 entry=330.14 target=360.0 init_stop=320.33 (min(atr=16.920×2.5=42.30, 0.33×upside=9.85) | rescaled x1.00012 from fill 330.18 vs ref 330.14)
 2026-09-23 16:20 UTC | intraday-reversion | BUY      | JNJ    | O=269.47 entry=267.76 target=269.47 trail=$8.52
 2026-09-23 16:07 UTC | intraday-reversion | BUY      | ABBV   | O=266.0 entry=264.7 target=266.0 trail=$9.64
