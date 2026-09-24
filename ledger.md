@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-24 17:20 UTC | llm-trader      | BUY      | AMT    | conf=7 entry=168.67 target=178.5 init_stop=165.25 (min(atr=4.057×2.5=10.14, 0.33×upside=3.24) | rescaled x0.99893 from fill 168.49 vs ref 168.67)
 2026-09-24 16:20 UTC | intraday-reversion | BUY      | XOM    | O=163.09 entry=162.61 target=163.09 trail=$4.28
 2026-09-24 16:17 UTC | llm-trader      | BUY      | AMD    | conf=6 entry=610.97 target=665.0 init_stop=597.98 (min(atr=23.451×2.5=58.63, 0.33×upside=17.83) | rescaled x1.00817 from fill 615.96 vs ref 610.97)
 2026-09-24 16:17 UTC | llm-trader      | BUY      | ARM    | conf=6 entry=305.52 target=345.0 init_stop=296.77 (min(atr=17.552×2.5=43.88, 0.33×upside=13.03) | rescaled x1.01463 from fill 309.99 vs ref 305.52)
