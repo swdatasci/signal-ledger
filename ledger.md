@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-25 14:21 UTC | intraday-reversion | BUY      | NVDA   | O=225.11 entry=223.72 target=225.11 trail=$7.32
 2026-09-25 14:20 UTC | intraday-reversion | BUY      | AMD    | O=634.0 entry=631.43 target=634.0 trail=$20.0
 2026-09-25 14:09 UTC | intraday-reversion | BUY      | CRM    | O=237.03 entry=236.26 target=237.03 trail=$9.36
 2026-09-25 13:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.55% hit=59% t=+4.3
