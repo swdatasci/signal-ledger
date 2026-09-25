@@ -7,6 +7,9 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-25 14:09 UTC | intraday-reversion | BUY      | CRM    | O=237.03 entry=236.26 target=237.03 trail=$9.36
+2026-09-25 13:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-09-25 13:00 UTC | live-signal      | LONG-B   | FRIDAYxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.31%. | conf=high exp=+0.31% hit=59% t=+9.6
 2026-09-24 19:25 UTC | llm-trader      | BUY      | GM     | conf=6 entry=83.64 target=92.5 init_stop=77.74 (min(atr=2.605×2.5=6.51, 0.33×upside=2.92) | rescaled x0.96306 from fill 80.55 vs ref 83.64)
 2026-09-24 18:22 UTC | llm-trader      | BUY      | ARM    | conf=7 entry=310.28 target=335.0 init_stop=302.46 (min(atr=17.552×2.5=43.88, 0.33×upside=8.16) | rescaled x1.00113 from fill 310.63 vs ref 310.28)
 2026-09-24 18:22 UTC | llm-trader      | BUY      | AMT    | conf=6 entry=168.49 target=176.5 init_stop=165.87 (min(atr=4.057×2.5=10.14, 0.33×upside=2.64) | rescaled x1.00012 from fill 168.51 vs ref 168.49)
