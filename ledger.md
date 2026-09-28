@@ -7,6 +7,9 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-28 14:46 UTC | llm-trader      | BUY      | BA     | conf=6 entry=189.075 target=202.0 init_stop=184.64 (min(atr=5.810×2.5=14.52, 0.33×upside=4.27) | rescaled x0.99907 from fill 188.90 vs ref 189.07)
+2026-09-28 13:31 UTC | live-signal      | LONG-B   | CRM    | DO: LONG-B CRM | conf=high exp=+2.77% hit=60% t=+6.2
+2026-09-28 13:00 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-09-25 19:38 UTC | llm-trader      | BUY      | MCHP   | conf=6 entry=78.48 target=86.5 init_stop=75.88 (min(atr=2.543×2.5=6.36, 0.33×upside=2.65) | rescaled x1.00064 from fill 78.53 vs ref 78.48)
 2026-09-25 18:37 UTC | llm-trader      | BUY      | EXC    | conf=6 entry=40.15 target=42.8 init_stop=39.29 (min(atr=0.690×2.5=1.73, 0.33×upside=0.87) | rescaled x1.00025 from fill 40.16 vs ref 40.15)
 2026-09-25 18:36 UTC | llm-trader      | BUY      | MSFT   | conf=8 entry=499.04 target=525.0 init_stop=509.32 (min(atr=11.258×2.5=28.14, 0.33×upside=8.57) | rescaled x1.03843 from fill 518.22 vs ref 499.04)
