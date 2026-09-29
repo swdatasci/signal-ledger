@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-29 14:27 UTC | intraday-reversion | BUY      | JNJ    | O=269.11 entry=266.05 target=269.11 trail=$11.12
 2026-09-29 14:25 UTC | intraday-reversion | BUY      | MRK    | O=148.17 entry=146.79 target=148.17 trail=$8.76
 2026-09-29 14:11 UTC | intraday-reversion | BUY      | TMO    | O=676.42 entry=673.63 target=676.42 trail=$19.16
 2026-09-29 14:09 UTC | intraday-reversion | BUY      | NVDA   | O=231.02 entry=229.51 target=231.02 trail=$7.2
