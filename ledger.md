@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-29 14:09 UTC | intraday-reversion | BUY      | NVDA   | O=231.02 entry=229.51 target=231.02 trail=$7.2
 2026-09-29 14:07 UTC | intraday-reversion | BUY      | PFE    | O=28.61 entry=28.47 target=28.61 trail=$0.6
 2026-09-29 13:31 UTC | live-signal      | LONG-B   | CRM    | DO: LONG-B CRM | conf=high exp=+2.77% hit=60% t=+6.2
 2026-09-29 13:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+2.77% hit=60% t=+6.2
