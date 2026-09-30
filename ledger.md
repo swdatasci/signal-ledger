@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-09-30 15:22 UTC | llm-trader      | BUY      | MSFT   | conf=7 entry=518.44 target=538.0 init_stop=511.98 (min(atr=11.650×2.5=29.13, 0.33×upside=6.45) | rescaled x0.99998 from fill 518.43 vs ref 518.44)
 2026-09-30 14:19 UTC | llm-trader      | BUY      | AMAT   | conf=7 entry=510.22 target=565.0 init_stop=491.41 (min(atr=17.864×2.5=44.66, 0.33×upside=18.08) | rescaled x0.99851 from fill 509.46 vs ref 510.22)
 2026-09-30 14:19 UTC | llm-trader      | BUY      | MSFT   | conf=8 entry=517.71 target=560.0 init_stop=504.34 (min(atr=11.650×2.5=29.13, 0.33×upside=13.96) | rescaled x1.00118 from fill 518.32 vs ref 517.71)
 2026-09-30 13:00 UTC | live-signal      | LONG-B   | H12-MONTHEND-LIFT | DO: BUY SPY at open, SELL at close. Universal effect — works in any regime. | conf=medium exp=+0.23% hit=55% t=+7.2
