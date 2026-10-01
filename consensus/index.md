@@ -11,6 +11,7 @@ Each entry: 3 LLMs (Claude, GPT, Gemini) × 2 prompt styles (naive, sophisticate
 
 ## Recent days
 
+- [2026-09-30](./2026-09-30)
 - [2026-09-29](./2026-09-29)
 - [2026-09-28](./2026-09-28)
 - [2026-09-27](./2026-09-27)
@@ -40,7 +41,6 @@ Each entry: 3 LLMs (Claude, GPT, Gemini) × 2 prompt styles (naive, sophisticate
 - [2026-09-03](./2026-09-03)
 - [2026-09-02](./2026-09-02)
 - [2026-09-01](./2026-09-01)
-- [2026-08-31](./2026-08-31)
 
 ## Source of truth
 
