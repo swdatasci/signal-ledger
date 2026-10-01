@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-01 15:05 UTC | intraday-reversion | BUY      | NVDA   | O=229.98 entry=228.85 target=229.98 trail=$7.72
 2026-10-01 14:56 UTC | intraday-reversion | BUY      | CRM    | O=235.19 entry=231.7 target=235.19 trail=$17.04
 2026-09-30 18:30 UTC | llm-trader      | BUY      | MSFT   | conf=7 entry=518.03 target=565.0 init_stop=502.56 (min(atr=11.650×2.5=29.13, 0.33×upside=15.50) | rescaled x1.00006 from fill 518.06 vs ref 518.03)
 2026-09-30 17:28 UTC | llm-trader      | BUY      | AMAT   | conf=7 entry=504.5 target=535.0 init_stop=498.99 (min(atr=17.916×2.5=44.79, 0.33×upside=10.07) | rescaled x1.00920 from fill 509.14 vs ref 504.50)
