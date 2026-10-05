@@ -7,6 +7,10 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-05 13:33 UTC | llm-trader      | BUY      | JNJ    | conf=6 entry=262.55 target=274.0 init_stop=258.77 [parent placed, awaiting fill]
+2026-10-05 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+2.77% hit=60% t=+6.2
+2026-10-05 13:00 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
+2026-10-05 12:44 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-10-01 15:05 UTC | intraday-reversion | BUY      | NVDA   | O=229.98 entry=228.85 target=229.98 trail=$7.72
 2026-10-01 14:56 UTC | intraday-reversion | BUY      | CRM    | O=235.19 entry=231.7 target=235.19 trail=$17.04
 2026-09-30 18:30 UTC | llm-trader      | BUY      | MSFT   | conf=7 entry=518.03 target=565.0 init_stop=502.56 (min(atr=11.650×2.5=29.13, 0.33×upside=15.50) | rescaled x1.00006 from fill 518.06 vs ref 518.03)
