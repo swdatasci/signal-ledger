@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-06 14:13 UTC | intraday-reversion | BUY      | TMO    | O=683.35 entry=675.63 target=683.35 trail=$43.92
 2026-10-05 15:43 UTC | llm-trader      | BUY      | TSLA   | conf=5 entry=377.86 target=415.0 init_stop=365.51 (min(atr=11.388×2.5=28.47, 0.33×upside=12.26) | rescaled x0.99976 from fill 377.77 vs ref 377.86)
 2026-10-05 14:35 UTC | llm-trader      | BUY      | MSFT   | conf=7 entry=526.205 target=545.0 init_stop=519.86 (min(atr=11.352×2.5=28.38, 0.33×upside=6.20) | rescaled x0.99972 from fill 526.06 vs ref 526.21)
 2026-10-05 13:33 UTC | llm-trader      | BUY      | JNJ    | conf=6 entry=262.55 target=274.0 init_stop=258.77 [parent placed, awaiting fill]
