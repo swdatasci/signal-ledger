@@ -9,7 +9,7 @@ by name rather than by account number.
 TradeStation accounts are NOT covered -- the heading used to say
 "current paper-trade book", which claimed a completeness this
 producer has never had.
-Last updated: 2026-10-07 12:59 UTC
+Last updated: 2026-10-07 13:00 UTC
 
 | Account | Symbol | Qty | Avg entry | Last | Unrealized |
 |---|---|---:|---:|---:|---:|
@@ -37,10 +37,10 @@ Last updated: 2026-10-07 12:59 UTC
 | paper2-sim | DRD | 19.751131221 | 24.31 | 23.39 | -18.171041 |
 | paper2-sim | FIRY | 117.417498447 | 8.52 | 12.48 | 464.973294 |
 | paper2-sim | FSTR | 11.549780549 | 43.29 | 36.1 | -83.042922 |
-| paper2-sim | GOOG | 1.445400354 | 345.918 | 343.5 | -3.494978 |
-| paper2-sim | KGC | 19.880016549 | 24.17 | 23.07 | -21.868018 |
+| paper2-sim | GOOG | 1.445400354 | 345.918 | 343.2 | -3.928599 |
+| paper2-sim | KGC | 19.880016549 | 24.17 | 23.0683 | -21.901814 |
 | paper2-sim | LNC | 11.539995195 | 41.63 | 42.08 | 5.192998 |
-| paper2-sim | LOGI | 4.703685551 | 102.02 | 100.66 | -6.397012 |
+| paper2-sim | LOGI | 4.703685551 | 102.02 | 100.59 | -6.72627 |
 | paper2-sim | MSI | 1.212461442 | 412.376 | 456.28 | 53.231907 |
 | paper2-sim | NRP | 4.287053571 | 112 | 111.59 | -1.757692 |
 | paper2-sim | OFLX | 15.561469032 | 32.13 | 26.4 | -89.167218 |
