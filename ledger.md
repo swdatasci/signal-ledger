@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-08 16:46 UTC | intraday-reversion | BUY      | CSCO   | O=116.48 entry=115.82 target=116.48 trail=$2.8
 2026-10-08 14:45 UTC | intraday-reversion | BUY      | CRM    | O=225.46 entry=223.48 target=225.46 trail=$9.96
 2026-10-06 19:00 UTC | llm-trader      | BUY      | AVGO   | conf=6 entry=378.84 target=395.0 init_stop=373.71 (min(atr=10.594×2.5=26.48, 0.33×upside=5.33) | rescaled x1.00053 from fill 379.04 vs ref 378.84)
 2026-10-06 19:00 UTC | llm-trader      | BUY      | LIN    | conf=7 entry=491.22 target=510.0 init_stop=484.86 (min(atr=8.067×2.5=20.17, 0.33×upside=6.20) | rescaled x0.99967 from fill 491.06 vs ref 491.22)
