@@ -7,6 +7,10 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-09 13:52 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=322.81 target=345.0 init_stop=324.91 (min(atr=6.379×2.5=15.95, 0.33×upside=7.32) | rescaled x1.02986 from fill 332.45 vs ref 322.81)
+2026-10-09 13:32 UTC | live-signal      | LONG-B   | T      | DO: LONG-B T | conf=high exp=+3.55% hit=59% t=+4.3
+2026-10-09 13:32 UTC | live-signal      | LONG-B   | VZ     | DO: LONG-B VZ | conf=high exp=+3.55% hit=59% t=+4.3
+2026-10-09 13:08 UTC | live-signal      | LONG-B   | FRIDAYxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.31%. | conf=high exp=+0.31% hit=59% t=+9.6
 2026-10-08 16:54 UTC | intraday-reversion | BUY      | MSFT   | O=529.81 entry=525.81 target=529.81 trail=$14.8
 2026-10-08 16:46 UTC | intraday-reversion | BUY      | CSCO   | O=116.48 entry=115.82 target=116.48 trail=$2.8
 2026-10-08 14:45 UTC | intraday-reversion | BUY      | CRM    | O=225.46 entry=223.48 target=225.46 trail=$9.96
