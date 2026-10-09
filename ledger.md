@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-09 14:54 UTC | llm-trader      | BUY      | T      | conf=5 entry=24.01 target=26.8 init_stop=22.17 (min(atr=0.648×2.5=1.62, 0.33×upside=0.92) | rescaled x0.96002 from fill 23.05 vs ref 24.01)
 2026-10-09 13:52 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=322.81 target=345.0 init_stop=324.91 (min(atr=6.379×2.5=15.95, 0.33×upside=7.32) | rescaled x1.02986 from fill 332.45 vs ref 322.81)
 2026-10-09 13:32 UTC | live-signal      | LONG-B   | T      | DO: LONG-B T | conf=high exp=+3.55% hit=59% t=+4.3
 2026-10-09 13:32 UTC | live-signal      | LONG-B   | VZ     | DO: LONG-B VZ | conf=high exp=+3.55% hit=59% t=+4.3
