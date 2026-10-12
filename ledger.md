@@ -7,6 +7,8 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-12 14:07 UTC | llm-trader      | BUY      | ARM    | conf=6 entry=257.36 target=285.0 init_stop=247.29 (min(atr=18.213×2.5=45.53, 0.33×upside=9.12) | rescaled x0.99615 from fill 256.37 vs ref 257.36)
+2026-10-12 13:03 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-10-09 18:00 UTC | llm-trader      | BUY      | DE     | conf=5 entry=646.94 target=675.0 init_stop=627.2 (min(atr=18.951×2.5=47.38, 0.33×upside=9.26) | rescaled x0.98357 from fill 636.31 vs ref 646.94)
 2026-10-09 15:56 UTC | llm-trader      | BUY      | V      | conf=7 entry=367.37 target=395.0 init_stop=374.29 (min(atr=6.277×2.5=15.69, 0.33×upside=9.12) | rescaled x1.04478 from fill 383.82 vs ref 367.37)
 2026-10-09 15:56 UTC | llm-trader      | BUY      | ABBV   | conf=6 entry=275.43 target=292.0 init_stop=270.21 (min(atr=5.519×2.5=13.80, 0.33×upside=5.47) | rescaled x1.00094 from fill 275.69 vs ref 275.43)
