@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-13 16:41 UTC | intraday-reversion | BUY      | DIS    | O=109.52 entry=109.12 target=109.52 trail=$2.56
 2026-10-13 15:19 UTC | llm-trader      | BUY      | AAPL   | conf=5 entry=346.21 target=365.0 init_stop=340.13 (min(atr=6.576×2.5=16.44, 0.33×upside=6.20) | rescaled x1.00035 from fill 346.33 vs ref 346.21)
 2026-10-13 15:19 UTC | llm-trader      | BUY      | ARM    | conf=6 entry=250.94 target=275.0 init_stop=242.63 (min(atr=18.383×2.5=45.96, 0.33×upside=7.94) | rescaled x0.99849 from fill 250.56 vs ref 250.94)
 2026-10-13 15:18 UTC | llm-trader      | BUY      | AMD    | conf=6 entry=587.71 target=625.0 init_stop=574.95 (min(atr=24.639×2.5=61.60, 0.33×upside=12.31) | rescaled x0.99922 from fill 587.25 vs ref 587.71)
