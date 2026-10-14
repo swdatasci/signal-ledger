@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-14 14:28 UTC | llm-trader      | BUY      | BAC    | conf=6 entry=49.735 target=52.5 init_stop=48.89 (min(atr=1.249×2.5=3.12, 0.33×upside=0.91) | rescaled x1.00151 from fill 49.81 vs ref 49.73)
 2026-10-14 14:23 UTC | intraday-reversion | BUY      | GOOGL  | O=355.8 entry=353.95 target=355.8 trail=$14.4
 2026-10-14 13:31 UTC | live-signal      | LONG-B   | MS     | DO: LONG-B MS | conf=high exp=+2.77% hit=60% t=+6.2
 2026-10-14 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+2.77% hit=60% t=+6.2
