@@ -7,6 +7,11 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-14 14:23 UTC | intraday-reversion | BUY      | GOOGL  | O=355.8 entry=353.95 target=355.8 trail=$14.4
+2026-10-14 13:31 UTC | live-signal      | LONG-B   | MS     | DO: LONG-B MS | conf=high exp=+2.77% hit=60% t=+6.2
+2026-10-14 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+2.77% hit=60% t=+6.2
+2026-10-14 13:31 UTC | live-signal      | LONG-B   | JNJ    | DO: LONG-B JNJ | conf=high exp=+2.77% hit=60% t=+6.2
+2026-10-14 13:31 UTC | live-signal      | LONG-B   | GS     | DO: LONG-B GS | conf=high exp=+3.15% hit=61% t=+7.2
 2026-10-13 19:26 UTC | llm-trader      | BUY      | VRTX   | conf=6 entry=512.38 target=545.0 init_stop=478.79 (min(atr=12.206×2.5=30.52, 0.33×upside=10.76) | rescaled x0.95449 from fill 489.06 vs ref 512.38)
 2026-10-13 16:41 UTC | intraday-reversion | BUY      | DIS    | O=109.52 entry=109.12 target=109.52 trail=$2.56
 2026-10-13 15:19 UTC | llm-trader      | BUY      | AAPL   | conf=5 entry=346.21 target=365.0 init_stop=340.13 (min(atr=6.576×2.5=16.44, 0.33×upside=6.20) | rescaled x1.00035 from fill 346.33 vs ref 346.21)
