@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-15 16:03 UTC | intraday-reversion | BUY      | MO     | O=74.5 entry=73.64 target=74.5 trail=$4.96
 2026-10-15 15:53 UTC | intraday-reversion | BUY      | KO     | O=93.21 entry=92.58 target=93.21 trail=$3.56
 2026-10-15 14:41 UTC | llm-trader      | BUY      | LLY    | conf=5 entry=1265.06 target=1380.0 init_stop=1225.91 (min(atr=37.634×2.5=94.08, 0.33×upside=37.93) | rescaled x0.99900 from fill 1263.80 vs ref 1265.06)
 2026-10-15 14:41 UTC | llm-trader      | BUY      | AVGO   | conf=6 entry=340.48 target=395.0 init_stop=323.05 (min(atr=10.554×2.5=26.38, 0.33×upside=17.99) | rescaled x1.00173 from fill 341.07 vs ref 340.48)
