@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-15 19:48 UTC | llm-trader      | BUY      | CAT    | conf=6 entry=738.46 target=795.0 init_stop=720.81 (min(atr=27.567×2.5=68.92, 0.33×upside=18.66) | rescaled x1.00141 from fill 739.50 vs ref 738.46)
 2026-10-15 18:46 UTC | llm-trader      | BUY      | CAT    | conf=6 entry=728.69 target=765.0 init_stop=717.13 (min(atr=27.567×2.5=68.92, 0.33×upside=11.98) | rescaled x1.00059 from fill 729.12 vs ref 728.69)
 2026-10-15 16:03 UTC | intraday-reversion | BUY      | MO     | O=74.5 entry=73.64 target=74.5 trail=$4.96
 2026-10-15 15:53 UTC | intraday-reversion | BUY      | KO     | O=93.21 entry=92.58 target=93.21 trail=$3.56
