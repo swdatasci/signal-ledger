@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-15 14:41 UTC | llm-trader      | BUY      | AMD    | conf=7 entry=526.66 target=580.0 init_stop=524.36 (min(atr=27.087×2.5=67.72, 0.33×upside=17.60) | rescaled x1.03006 from fill 542.49 vs ref 526.66)
 2026-10-15 13:39 UTC | llm-trader      | BUY      | UNH    | conf=6 entry=401.97 target=425.0 init_stop=395.05 (min(atr=10.577×2.5=26.44, 0.33×upside=7.60) | rescaled x1.00172 from fill 402.66 vs ref 401.97)
 2026-10-15 13:31 UTC | live-signal      | LONG-B   | BAC    | DO: LONG-B BAC | conf=high exp=+3.55% hit=59% t=+4.3
 2026-10-15 13:31 UTC | live-signal      | LONG-B   | MS     | DO: LONG-B MS | conf=high exp=+2.77% hit=60% t=+6.2
