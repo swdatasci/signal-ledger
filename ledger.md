@@ -7,6 +7,10 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-15 13:39 UTC | llm-trader      | BUY      | UNH    | conf=6 entry=401.97 target=425.0 init_stop=395.05 (min(atr=10.577×2.5=26.44, 0.33×upside=7.60) | rescaled x1.00172 from fill 402.66 vs ref 401.97)
+2026-10-15 13:31 UTC | live-signal      | LONG-B   | BAC    | DO: LONG-B BAC | conf=high exp=+3.55% hit=59% t=+4.3
+2026-10-15 13:31 UTC | live-signal      | LONG-B   | MS     | DO: LONG-B MS | conf=high exp=+2.77% hit=60% t=+6.2
+2026-10-15 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+2.77% hit=60% t=+6.2
 2026-10-14 19:37 UTC | llm-trader      | BUY      | UNH    | conf=7 entry=394.63 target=412.0 init_stop=388.78 (min(atr=10.470×2.5=26.17, 0.33×upside=5.73) | rescaled x0.99970 from fill 394.51 vs ref 394.63)
 2026-10-14 18:35 UTC | llm-trader      | BUY      | UNH    | conf=6 entry=392.98 target=415.0 init_stop=385.67 (min(atr=10.470×2.5=26.17, 0.33×upside=7.27) | rescaled x0.99990 from fill 392.94 vs ref 392.98)
 2026-10-14 16:32 UTC | llm-trader      | BUY      | UNH    | conf=8 entry=390.65 target=415.0 init_stop=380.5 (min(atr=10.470×2.5=26.17, 0.33×upside=8.04) | rescaled x0.99450 from fill 388.50 vs ref 390.65)
