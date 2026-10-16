@@ -7,6 +7,12 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-16 13:49 UTC | llm-trader      | BUY      | CAT    | conf=6 entry=739.21 target=810.0 init_stop=718.34 (min(atr=26.665×2.5=66.66, 0.33×upside=23.36) | rescaled x1.00348 from fill 741.78 vs ref 739.21)
+2026-10-16 13:31 UTC | live-signal      | LONG-B   | HD     | DO: LONG-B HD | conf=high exp=+3.15% hit=61% t=+7.2
+2026-10-16 13:31 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+2.77% hit=60% t=+6.2
+2026-10-16 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.55% hit=59% t=+4.3
+2026-10-16 13:31 UTC | live-signal      | LONG-B   | WMT    | DO: LONG-B WMT | conf=high exp=+3.15% hit=61% t=+7.2
+2026-10-16 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+2.77% hit=60% t=+6.2
 2026-10-15 19:48 UTC | llm-trader      | BUY      | CAT    | conf=6 entry=738.46 target=795.0 init_stop=720.81 (min(atr=27.567×2.5=68.92, 0.33×upside=18.66) | rescaled x1.00141 from fill 739.50 vs ref 738.46)
 2026-10-15 18:46 UTC | llm-trader      | BUY      | CAT    | conf=6 entry=728.69 target=765.0 init_stop=717.13 (min(atr=27.567×2.5=68.92, 0.33×upside=11.98) | rescaled x1.00059 from fill 729.12 vs ref 728.69)
 2026-10-15 16:03 UTC | intraday-reversion | BUY      | MO     | O=74.5 entry=73.64 target=74.5 trail=$4.96
