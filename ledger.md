@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-16 20:01 UTC | llm-trader      | BUY      | IDXX   | conf=6 entry=544.27 target=610.0 init_stop=522.58 [parent placed, awaiting fill]
 2026-10-16 16:56 UTC | llm-trader      | BUY      | CRWD   | conf=5 entry=227.08 target=265.0 init_stop=215.03 (min(atr=11.497×2.5=28.74, 0.33×upside=12.51) | rescaled x1.00216 from fill 227.57 vs ref 227.08)
 2026-10-16 16:55 UTC | llm-trader      | BUY      | IDXX   | conf=6 entry=563.11 target=620.0 init_stop=545.2 (min(atr=12.933×2.5=32.33, 0.33×upside=18.77) | rescaled x1.00158 from fill 564.00 vs ref 563.11)
 2026-10-16 16:06 UTC | intraday-reversion | BUY      | MA     | O=619.36 entry=617.41 target=619.36 trail=$12.52
