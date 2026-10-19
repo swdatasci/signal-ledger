@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-19 16:07 UTC | llm-trader      | BUY      | PANW   | conf=5 entry=349.82 target=375.0 init_stop=341.88 (min(atr=18.051×2.5=45.13, 0.33×upside=8.31) | rescaled x1.00109 from fill 350.20 vs ref 349.82)
 2026-10-19 15:05 UTC | llm-trader      | BUY      | CRWD   | conf=6 entry=229.43 target=255.0 init_stop=221.38 (min(atr=11.413×2.5=28.53, 0.33×upside=8.44) | rescaled x1.00174 from fill 229.83 vs ref 229.43)
 2026-10-19 15:05 UTC | llm-trader      | BUY      | SCHW   | conf=7 entry=90.27 target=98.5 init_stop=87.57 (min(atr=2.111×2.5=5.28, 0.33×upside=2.72) | rescaled x1.00022 from fill 90.29 vs ref 90.27)
 2026-10-19 14:03 UTC | llm-trader      | BUY      | AMD    | conf=6 entry=527.03 target=560.0 init_stop=530.99 (min(atr=26.202×2.5=65.51, 0.33×upside=10.88) | rescaled x1.02875 from fill 542.18 vs ref 527.03)
