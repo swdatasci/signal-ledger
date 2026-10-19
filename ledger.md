@@ -7,6 +7,11 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-19 14:03 UTC | llm-trader      | BUY      | AMD    | conf=6 entry=527.03 target=560.0 init_stop=530.99 (min(atr=26.202×2.5=65.51, 0.33×upside=10.88) | rescaled x1.02875 from fill 542.18 vs ref 527.03)
+2026-10-19 13:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.15% hit=61% t=+7.2
+2026-10-19 13:31 UTC | live-signal      | LONG-B   | NFLX   | DO: LONG-B NFLX | conf=high exp=+2.77% hit=60% t=+6.2
+2026-10-19 13:00 UTC | live-signal      | LONG-B   | POST-OPEXxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.46%. Strong signal, act on it. | conf=high exp=+0.46% hit=63% t=+8.7
+2026-10-19 13:00 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-10-16 20:01 UTC | llm-trader      | BUY      | BLK    | conf=5 entry=1102.46 target=1175.0 init_stop=1078.52 [parent placed, awaiting fill]
 2026-10-16 20:01 UTC | llm-trader      | BUY      | IDXX   | conf=6 entry=544.27 target=610.0 init_stop=522.58 [parent placed, awaiting fill]
 2026-10-16 16:56 UTC | llm-trader      | BUY      | CRWD   | conf=5 entry=227.08 target=265.0 init_stop=215.03 (min(atr=11.497×2.5=28.74, 0.33×upside=12.51) | rescaled x1.00216 from fill 227.57 vs ref 227.08)
