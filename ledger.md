@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-20 18:25 UTC | llm-trader      | BUY      | META   | conf=6 entry=689.65 target=720.0 init_stop=679.67 (min(atr=24.048×2.5=60.12, 0.33×upside=10.02) | rescaled x1.00006 from fill 689.69 vs ref 689.65)
 2026-10-20 14:08 UTC | intraday-reversion | BUY      | PM     | O=201.86 entry=200.53 target=201.86 trail=$4.68
 2026-10-20 13:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+3.15% hit=61% t=+7.2
 2026-10-20 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.35% hit=59% t=+4.3
