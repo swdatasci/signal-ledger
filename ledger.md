@@ -7,6 +7,9 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-20 14:08 UTC | intraday-reversion | BUY      | PM     | O=201.86 entry=200.53 target=201.86 trail=$4.68
+2026-10-20 13:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+3.15% hit=61% t=+7.2
+2026-10-20 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.35% hit=59% t=+4.3
 2026-10-19 19:16 UTC | llm-trader      | BUY      | TSLA   | conf=5 entry=368.89 target=395.0 init_stop=360.26 (min(atr=11.723×2.5=29.31, 0.33×upside=8.62) | rescaled x0.99997 from fill 368.88 vs ref 368.89)
 2026-10-19 19:16 UTC | llm-trader      | BUY      | ARM    | conf=7 entry=230.91 target=248.0 init_stop=225.52 (min(atr=16.809×2.5=42.02, 0.33×upside=5.64) | rescaled x1.00113 from fill 231.17 vs ref 230.91)
 2026-10-19 18:14 UTC | llm-trader      | BUY      | CCEP   | conf=7 entry=112.24 target=120.0 init_stop=109.72 (min(atr=2.068×2.5=5.17, 0.33×upside=2.56) | rescaled x1.00036 from fill 112.28 vs ref 112.24)
