@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-20 19:28 UTC | llm-trader      | BUY      | IBM    | conf=7 entry=230.95 target=248.0 init_stop=235.58 (min(atr=6.015×2.5=15.04, 0.33×upside=5.63) | rescaled x1.04555 from fill 241.47 vs ref 230.95)
 2026-10-20 18:26 UTC | llm-trader      | BUY      | IBM    | conf=5 entry=230.93 target=241.0 init_stop=237.25 (min(atr=5.973×2.5=14.93, 0.33×upside=3.32) | rescaled x1.04235 from fill 240.71 vs ref 230.93)
 2026-10-20 18:25 UTC | llm-trader      | BUY      | META   | conf=6 entry=689.65 target=720.0 init_stop=679.67 (min(atr=24.048×2.5=60.12, 0.33×upside=10.02) | rescaled x1.00006 from fill 689.69 vs ref 689.65)
 2026-10-20 14:08 UTC | intraday-reversion | BUY      | PM     | O=201.86 entry=200.53 target=201.86 trail=$4.68
