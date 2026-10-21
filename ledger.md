@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-21 14:30 UTC | llm-trader      | BUY      | GOOG   | conf=6 entry=343.95 target=358.0 init_stop=323.28 (min(atr=8.191×2.5=20.48, 0.33×upside=4.64) | rescaled x0.95275 from fill 327.70 vs ref 343.95)
 2026-10-21 14:29 UTC | llm-trader      | BUY      | COF    | conf=7 entry=207.51 target=216.8 init_stop=207.82 (min(atr=4.831×2.5=12.08, 0.33×upside=3.07) | rescaled x1.01653 from fill 210.94 vs ref 207.51)
 2026-10-21 13:31 UTC | live-signal      | LONG-B   | T      | DO: LONG-B T | conf=high exp=+3.55% hit=59% t=+4.3
 2026-10-20 19:28 UTC | llm-trader      | BUY      | IBM    | conf=7 entry=230.95 target=248.0 init_stop=235.58 (min(atr=6.015×2.5=15.04, 0.33×upside=5.63) | rescaled x1.04555 from fill 241.47 vs ref 230.95)
