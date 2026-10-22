@@ -7,6 +7,9 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-22 14:12 UTC | intraday-reversion | BUY      | TMO    | O=691.7 entry=684.25 target=691.7 trail=$46.0
+2026-10-22 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.55% hit=59% t=+4.3
+2026-10-22 13:31 UTC | live-signal      | LONG-B   | TSLA   | DO: LONG-B TSLA | conf=high exp=+2.77% hit=60% t=+6.2
 2026-10-21 18:37 UTC | llm-trader      | BUY      | FAST   | conf=6 entry=50.19 target=53.25 init_stop=51.76 (min(atr=1.294×2.5=3.23, 0.33×upside=1.01) | rescaled x1.05240 from fill 52.82 vs ref 50.19)
 2026-10-21 17:35 UTC | llm-trader      | BUY      | COF    | conf=6 entry=209.49 target=235.0 init_stop=200.9 (min(atr=4.880×2.5=12.20, 0.33×upside=8.42) | rescaled x0.99914 from fill 209.31 vs ref 209.49)
 2026-10-21 15:32 UTC | llm-trader      | BUY      | NFLX   | conf=5 entry=65.34 target=71.5 init_stop=63.36 (min(atr=1.936×2.5=4.84, 0.33×upside=2.03) | rescaled x1.00077 from fill 65.39 vs ref 65.34)
