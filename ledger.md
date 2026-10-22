@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-22 14:33 UTC | intraday-reversion | BUY      | AAPL   | O=344.88 entry=342.7 target=344.88 trail=$9.6
 2026-10-22 14:12 UTC | intraday-reversion | BUY      | TMO    | O=691.7 entry=684.25 target=691.7 trail=$46.0
 2026-10-22 13:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.55% hit=59% t=+4.3
 2026-10-22 13:31 UTC | live-signal      | LONG-B   | TSLA   | DO: LONG-B TSLA | conf=high exp=+2.77% hit=60% t=+6.2
