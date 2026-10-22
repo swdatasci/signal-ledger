@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-22 18:55 UTC | llm-trader      | BUY      | META   | conf=6 entry=650.0 target=695.0 init_stop=626.65 (min(atr=25.302×2.5=63.26, 0.33×upside=14.85) | rescaled x0.98662 from fill 641.30 vs ref 650.00)
 2026-10-22 18:55 UTC | llm-trader      | BUY      | CSX    | conf=7 entry=50.1 target=53.2 init_stop=50.49 (min(atr=0.924×2.5=2.31, 0.33×upside=1.02) | rescaled x1.02874 from fill 51.54 vs ref 50.10)
 2026-10-22 15:45 UTC | llm-trader      | BUY      | META   | conf=7 entry=658.23 target=710.0 init_stop=641.71 (min(atr=24.766×2.5=61.92, 0.33×upside=17.08) | rescaled x1.00088 from fill 658.81 vs ref 658.23)
 2026-10-22 14:42 UTC | llm-trader      | BUY      | META   | conf=7 entry=655.66 target=720.0 init_stop=631.35 (min(atr=24.766×2.5=61.92, 0.33×upside=21.23) | rescaled x0.99515 from fill 652.48 vs ref 655.66)
