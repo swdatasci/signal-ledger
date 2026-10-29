@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-29 18:43 UTC | llm-trader      | BUY      | LULU   | conf=6 entry=105.03 target=114.6 init_stop=106.42 (min(atr=3.847×2.5=9.62, 0.33×upside=3.16) | rescaled x1.04465 from fill 109.72 vs ref 105.03)
 2026-10-29 14:31 UTC | llm-trader      | BUY      | VRTX   | conf=6 entry=520.83 target=560.0 init_stop=529.77 (min(atr=14.653×2.5=36.63, 0.33×upside=12.93) | rescaled x1.04307 from fill 543.26 vs ref 520.83)
 2026-10-29 14:31 UTC | intraday-reversion | BUY      | PFE    | O=29.93 entry=29.78 target=29.93 trail=$1.0
 2026-10-22 19:58 UTC | llm-trader      | BUY      | CSX    | conf=8 entry=51.685 target=57.5 init_stop=49.8 (min(atr=0.933×2.5=2.33, 0.33×upside=1.92) | rescaled x1.00055 from fill 51.71 vs ref 51.69)
