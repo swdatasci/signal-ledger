@@ -7,6 +7,17 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-30 13:50 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=344.11 target=375.0 init_stop=327.52 (min(atr=6.212×2.5=15.53, 0.33×upside=10.19) | rescaled x0.98082 from fill 337.51 vs ref 344.11)
+2026-10-30 13:31 UTC | live-signal      | LONG-B   | TQQQ   | DO: LONG-B TQQQ | conf=high exp=+2.77% hit=60% t=+6.2
+2026-10-30 13:31 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+3.55% hit=59% t=+4.3
+2026-10-30 13:31 UTC | live-signal      | LONG-B   | CRM    | DO: LONG-B CRM | conf=high exp=+2.77% hit=60% t=+6.2
+2026-10-30 13:31 UTC | live-signal      | LONG-B   | GOOGL  | DO: LONG-B GOOGL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-10-30 13:31 UTC | live-signal      | LONG-B   | LLY    | DO: LONG-B LLY | conf=high exp=+3.15% hit=61% t=+7.2
+2026-10-30 13:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+2.77% hit=60% t=+6.2
+2026-10-30 13:31 UTC | live-signal      | LONG-B   | AMZN   | DO: LONG-B AMZN | conf=high exp=+2.77% hit=60% t=+6.2
+2026-10-30 13:31 UTC | live-signal      | LONG-B   | FAS    | DO: LONG-B FAS | conf=high exp=+3.15% hit=61% t=+7.2
+2026-10-30 13:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-10-30 13:03 UTC | live-signal      | LONG-B   | FRIDAYxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.31%. | conf=high exp=+0.31% hit=59% t=+9.6
 2026-10-29 18:43 UTC | llm-trader      | BUY      | LULU   | conf=6 entry=105.03 target=114.6 init_stop=106.42 (min(atr=3.847×2.5=9.62, 0.33×upside=3.16) | rescaled x1.04465 from fill 109.72 vs ref 105.03)
 2026-10-29 14:31 UTC | llm-trader      | BUY      | VRTX   | conf=6 entry=520.83 target=560.0 init_stop=529.77 (min(atr=14.653×2.5=36.63, 0.33×upside=12.93) | rescaled x1.04307 from fill 543.26 vs ref 520.83)
 2026-10-29 14:31 UTC | intraday-reversion | BUY      | PFE    | O=29.93 entry=29.78 target=29.93 trail=$1.0
