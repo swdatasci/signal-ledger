@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-10-30 14:07 UTC | intraday-reversion | BUY      | KO     | O=94.52 entry=94.25 target=94.52 trail=$2.24
 2026-10-30 14:03 UTC | intraday-reversion | BUY      | JNJ    | O=280.0 entry=278.38 target=280.0 trail=$8.08
 2026-10-30 13:50 UTC | llm-trader      | BUY      | JPM    | conf=6 entry=344.11 target=375.0 init_stop=327.52 (min(atr=6.212×2.5=15.53, 0.33×upside=10.19) | rescaled x0.98082 from fill 337.51 vs ref 344.11)
 2026-10-30 13:31 UTC | live-signal      | LONG-B   | TQQQ   | DO: LONG-B TQQQ | conf=high exp=+2.77% hit=60% t=+6.2
