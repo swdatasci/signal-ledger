@@ -7,6 +7,19 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-02 15:05 UTC | intraday-reversion | BUY      | PFE    | O=30.45 entry=30.26 target=30.45 trail=$0.76
+2026-11-02 14:31 UTC | live-signal      | LONG-B   | LLY    | DO: LONG-B LLY | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-02 14:31 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-02 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-02 14:31 UTC | live-signal      | LONG-B   | TQQQ   | DO: LONG-B TQQQ | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-02 14:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-02 14:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-02 14:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-02 14:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-02 14:31 UTC | live-signal      | LONG-B   | QCOM   | DO: LONG-B QCOM | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-02 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-02 14:31 UTC | live-signal      | LONG-B   | AMZN   | DO: LONG-B AMZN | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-02 14:01 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-10-30 18:58 UTC | llm-trader      | BUY      | ILMN   | conf=7 entry=244.9 target=260.0 init_stop=230.34 (min(atr=18.023×2.5=45.06, 0.33×upside=4.98) | rescaled x0.96007 from fill 235.12 vs ref 244.90)
 2026-10-30 17:56 UTC | llm-trader      | BUY      | AMZN   | conf=5 entry=238.845 target=265.0 init_stop=230.51 (min(atr=7.546×2.5=18.86, 0.33×upside=8.63) | rescaled x1.00132 from fill 239.16 vs ref 238.84)
 2026-10-30 14:52 UTC | llm-trader      | BUY      | GOOGL  | conf=6 entry=281.4368 target=305.0 init_stop=273.16 (min(atr=10.111×2.5=25.28, 0.33×upside=7.78) | rescaled x0.99816 from fill 280.92 vs ref 281.44)
