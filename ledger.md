@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-02 18:06 UTC | llm-trader      | BUY      | ABNB   | conf=6 entry=168.82 target=179.0 init_stop=168.6 (min(atr=4.374×2.5=10.94, 0.33×upside=3.36) | rescaled x1.01896 from fill 172.02 vs ref 168.82)
 2026-11-02 17:11 UTC | intraday-reversion | BUY      | MSFT   | O=523.9 entry=521.09 target=523.9 trail=$18.32
 2026-11-02 15:06 UTC | intraday-reversion | BUY      | MRK    | O=148.82 entry=147.88 target=148.82 trail=$5.8
 2026-11-02 15:05 UTC | intraday-reversion | BUY      | PFE    | O=30.45 entry=30.26 target=30.45 trail=$0.76
