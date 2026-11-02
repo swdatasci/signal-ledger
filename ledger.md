@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-02 15:06 UTC | intraday-reversion | BUY      | MRK    | O=148.82 entry=147.88 target=148.82 trail=$5.8
 2026-11-02 15:05 UTC | intraday-reversion | BUY      | PFE    | O=30.45 entry=30.26 target=30.45 trail=$0.76
 2026-11-02 14:31 UTC | live-signal      | LONG-B   | LLY    | DO: LONG-B LLY | conf=high exp=+3.15% hit=61% t=+7.2
 2026-11-02 14:31 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+2.77% hit=60% t=+6.2
