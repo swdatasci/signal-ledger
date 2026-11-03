@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-03 18:16 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=329.77 target=340.0 init_stop=328.58 (min(atr=7.445×2.5=18.61, 0.33×upside=3.38) | rescaled x1.00670 from fill 331.98 vs ref 329.77)
 2026-11-03 17:13 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=331.72 target=348.0 init_stop=326.12 (min(atr=7.445×2.5=18.61, 0.33×upside=5.37) | rescaled x0.99931 from fill 331.49 vs ref 331.72)
 2026-11-03 16:12 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=329.77 target=345.0 init_stop=325.2 (min(atr=7.445×2.5=18.61, 0.33×upside=5.03) | rescaled x1.00143 from fill 330.24 vs ref 329.77)
 2026-11-03 16:02 UTC | intraday-reversion | BUY      | PFE    | O=30.68 entry=30.3 target=30.68 trail=$1.52
