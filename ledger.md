@@ -7,6 +7,10 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-03 15:10 UTC | llm-trader      | BUY      | PLTR   | conf=7 entry=170.06 target=183.8 init_stop=165.33 (min(atr=9.594×2.5=23.98, 0.33×upside=4.53) | rescaled x0.99879 from fill 169.85 vs ref 170.06)
+2026-11-03 14:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-03 14:31 UTC | live-signal      | LONG-B   | ERX    | DO: LONG-B ERX | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-03 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.15% hit=61% t=+7.2
 2026-11-02 18:06 UTC | llm-trader      | BUY      | ABNB   | conf=6 entry=168.82 target=179.0 init_stop=168.6 (min(atr=4.374×2.5=10.94, 0.33×upside=3.36) | rescaled x1.01896 from fill 172.02 vs ref 168.82)
 2026-11-02 17:11 UTC | intraday-reversion | BUY      | MSFT   | O=523.9 entry=521.09 target=523.9 trail=$18.32
 2026-11-02 15:06 UTC | intraday-reversion | BUY      | MRK    | O=148.82 entry=147.88 target=148.82 trail=$5.8
