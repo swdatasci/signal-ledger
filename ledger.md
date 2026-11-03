@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-03 16:02 UTC | intraday-reversion | BUY      | PFE    | O=30.68 entry=30.3 target=30.68 trail=$1.52
 2026-11-03 15:10 UTC | llm-trader      | BUY      | PLTR   | conf=7 entry=170.06 target=183.8 init_stop=165.33 (min(atr=9.594×2.5=23.98, 0.33×upside=4.53) | rescaled x0.99879 from fill 169.85 vs ref 170.06)
 2026-11-03 14:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+2.77% hit=60% t=+6.2
 2026-11-03 14:31 UTC | live-signal      | LONG-B   | ERX    | DO: LONG-B ERX | conf=high exp=+2.77% hit=60% t=+6.2
