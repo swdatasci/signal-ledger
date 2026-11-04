@@ -7,6 +7,9 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-04 16:24 UTC | llm-trader      | BUY      | BKNG   | conf=7 entry=171.49 target=185.0 init_stop=166.56 (min(atr=6.190×2.5=15.48, 0.33×upside=4.46) | rescaled x0.99717 from fill 171.00 vs ref 171.49)
+2026-11-04 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-04 14:31 UTC | live-signal      | LONG-B   | AAPL   | DO: LONG-B AAPL | conf=high exp=+2.77% hit=60% t=+6.2
 2026-11-03 20:21 UTC | llm-trader      | BUY      | INTC   | conf=7 entry=60.225 target=72.0 init_stop=56.36 (min(atr=6.555×2.5=16.39, 0.33×upside=3.89) | rescaled x1.00042 from fill 60.25 vs ref 60.23)
 2026-11-03 20:20 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=331.24 target=348.0 init_stop=325.82 (min(atr=7.445×2.5=18.61, 0.33×upside=5.53) | rescaled x1.00033 from fill 331.35 vs ref 331.24)
 2026-11-03 19:18 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=325.58 target=345.0 init_stop=325.61 (min(atr=7.445×2.5=18.61, 0.33×upside=6.41) | rescaled x1.02018 from fill 332.15 vs ref 325.58)
