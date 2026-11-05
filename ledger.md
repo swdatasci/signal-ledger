@@ -7,6 +7,18 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-05 14:36 UTC | llm-trader      | BUY      | JPM    | conf=7 entry=343.39 target=358.0 init_stop=338.57 [parent placed, awaiting fill]
+2026-11-05 14:31 UTC | live-signal      | LONG-B   | HD     | DO: LONG-B HD | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-05 14:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-05 14:31 UTC | live-signal      | LONG-B   | AMZN   | DO: LONG-B AMZN | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-05 14:31 UTC | live-signal      | LONG-B   | CRM    | DO: LONG-B CRM | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-05 14:31 UTC | live-signal      | LONG-B   | META   | DO: LONG-B META | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-05 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-05 14:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-05 14:31 UTC | live-signal      | LONG-B   | TSLA   | DO: LONG-B TSLA | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-05 14:31 UTC | live-signal      | LONG-B   | BAC    | DO: LONG-B BAC | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-05 14:31 UTC | live-signal      | LONG-B   | FAS    | DO: LONG-B FAS | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-05 14:31 UTC | live-signal      | LONG-B   | MSFT   | DO: LONG-B MSFT | conf=high exp=+3.15% hit=61% t=+7.2
 2026-11-04 20:34 UTC | llm-trader      | BUY      | JPM    | conf=7 entry=343.32 target=365.0 init_stop=344.08 (min(atr=6.897×2.5=17.24, 0.33×upside=7.15) | rescaled x1.02353 from fill 351.40 vs ref 343.32)
 2026-11-04 19:32 UTC | llm-trader      | BUY      | AAPL   | conf=6 entry=353.06 target=385.0 init_stop=342.33 (min(atr=8.562×2.5=21.40, 0.33×upside=10.54) | rescaled x0.99943 from fill 352.86 vs ref 353.06)
 2026-11-04 19:32 UTC | llm-trader      | BUY      | MSFT   | conf=7 entry=555.33 target=610.0 init_stop=536.72 (min(atr=14.658×2.5=36.64, 0.33×upside=18.04) | rescaled x0.99894 from fill 554.74 vs ref 555.33)
