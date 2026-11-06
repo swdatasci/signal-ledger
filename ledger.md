@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-06 18:54 UTC | llm-trader      | BUY      | ABNB   | conf=7 entry=190.0 target=205.0 init_stop=185.25 (min(atr=6.663×2.5=16.66, 0.33×upside=4.95) | rescaled x1.00111 from fill 190.21 vs ref 190.00)
 2026-11-06 17:53 UTC | llm-trader      | BUY      | ARM    | conf=7 entry=170.2 target=182.0 init_stop=166.38 (min(atr=14.928×2.5=37.32, 0.33×upside=3.89) | rescaled x1.00041 from fill 170.27 vs ref 170.20)
 2026-11-06 14:31 UTC | live-signal      | LONG-B   | QCOM   | DO: LONG-B QCOM | conf=high exp=+3.55% hit=59% t=+4.3
 2026-11-06 14:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.55% hit=59% t=+4.3
