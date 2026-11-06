@@ -7,6 +7,18 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-06 17:53 UTC | llm-trader      | BUY      | ARM    | conf=7 entry=170.2 target=182.0 init_stop=166.38 (min(atr=14.928×2.5=37.32, 0.33×upside=3.89) | rescaled x1.00041 from fill 170.27 vs ref 170.20)
+2026-11-06 14:31 UTC | live-signal      | LONG-B   | QCOM   | DO: LONG-B QCOM | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-06 14:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-06 14:31 UTC | live-signal      | LONG-B   | FAS    | DO: LONG-B FAS | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-06 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-06 14:31 UTC | live-signal      | LONG-B   | TQQQ   | DO: LONG-B TQQQ | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-06 14:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-06 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-06 14:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-06 14:31 UTC | live-signal      | LONG-B   | CSCO   | DO: LONG-B CSCO | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-06 14:31 UTC | live-signal      | LONG-B   | TXN    | DO: LONG-B TXN | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-06 14:00 UTC | live-signal      | LONG-B   | FRIDAYxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.31%. | conf=high exp=+0.31% hit=59% t=+9.6
 2026-11-05 20:45 UTC | llm-trader      | BUY      | COST   | conf=7 entry=1065.61 target=1120.0 init_stop=1047.73 (min(atr=20.770×2.5=51.93, 0.33×upside=17.95) | rescaled x1.00007 from fill 1065.68 vs ref 1065.61)
 2026-11-05 18:42 UTC | llm-trader      | BUY      | COST   | conf=7 entry=1066.86 target=1120.0 init_stop=1048.59 (min(atr=20.770×2.5=51.93, 0.33×upside=17.54) | rescaled x0.99931 from fill 1066.12 vs ref 1066.86)
 2026-11-05 17:40 UTC | llm-trader      | BUY      | AMD    | conf=5 entry=417.2 target=460.0 init_stop=401.46 (min(atr=36.729×2.5=91.82, 0.33×upside=14.12) | rescaled x0.99597 from fill 415.52 vs ref 417.20)
