@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-09 16:03 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=179.09 target=186.5 init_stop=176.07 (min(atr=8.635×2.5=21.59, 0.33×upside=2.45) | rescaled x0.99676 from fill 178.51 vs ref 179.09)
 2026-11-09 15:00 UTC | llm-trader      | BUY      | ABNB   | conf=7 entry=194.305 target=208.0 init_stop=190.17 (min(atr=6.793×2.5=16.98, 0.33×upside=4.52) | rescaled x1.00198 from fill 194.69 vs ref 194.31)
 2026-11-09 14:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.35% hit=59% t=+4.3
 2026-11-09 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+3.35% hit=59% t=+4.3
