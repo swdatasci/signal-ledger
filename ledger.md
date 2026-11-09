@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-09 19:12 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=176.6 target=188.0 init_stop=172.31 (min(atr=8.635×2.5=21.59, 0.33×upside=3.76) | rescaled x0.99694 from fill 176.06 vs ref 176.60)
 2026-11-09 18:10 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=176.55 target=184.0 init_stop=174.21 (min(atr=8.635×2.5=21.59, 0.33×upside=2.46) | rescaled x1.00068 from fill 176.67 vs ref 176.55)
 2026-11-09 17:07 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=177.05 target=192.0 init_stop=172.14 (min(atr=8.635×2.5=21.59, 0.33×upside=4.93) | rescaled x1.00014 from fill 177.07 vs ref 177.05)
 2026-11-09 16:03 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=179.09 target=186.5 init_stop=176.07 (min(atr=8.635×2.5=21.59, 0.33×upside=2.45) | rescaled x0.99676 from fill 178.51 vs ref 179.09)
