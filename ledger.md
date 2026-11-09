@@ -7,6 +7,20 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-09 15:00 UTC | llm-trader      | BUY      | ABNB   | conf=7 entry=194.305 target=208.0 init_stop=190.17 (min(atr=6.793×2.5=16.98, 0.33×upside=4.52) | rescaled x1.00198 from fill 194.69 vs ref 194.31)
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | TQQQ   | DO: LONG-B TQQQ | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | ADBE   | DO: LONG-B ADBE | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | FAS    | DO: LONG-B FAS | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | NKE    | DO: LONG-B NKE | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | NVDA   | DO: LONG-B NVDA | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-09 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-09 14:00 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-11-06 19:56 UTC | llm-trader      | BUY      | ABNB   | conf=6 entry=191.13 target=205.0 init_stop=187.07 (min(atr=6.663×2.5=16.66, 0.33×upside=4.58) | rescaled x1.00280 from fill 191.66 vs ref 191.13)
 2026-11-06 18:54 UTC | llm-trader      | BUY      | ABNB   | conf=7 entry=190.0 target=205.0 init_stop=185.25 (min(atr=6.663×2.5=16.66, 0.33×upside=4.95) | rescaled x1.00111 from fill 190.21 vs ref 190.00)
 2026-11-06 17:53 UTC | llm-trader      | BUY      | ARM    | conf=7 entry=170.2 target=182.0 init_stop=166.38 (min(atr=14.928×2.5=37.32, 0.33×upside=3.89) | rescaled x1.00041 from fill 170.27 vs ref 170.20)
