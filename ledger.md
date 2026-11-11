@@ -7,6 +7,12 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-11 15:20 UTC | llm-trader      | BUY      | NVDA   | conf=7 entry=172.53 target=184.0 init_stop=168.96 (min(atr=8.550×2.5=21.38, 0.33×upside=3.79) | rescaled x1.00133 from fill 172.76 vs ref 172.53)
+2026-11-11 14:31 UTC | live-signal      | LONG-B   | TMF    | DO: LONG-B TMF | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-11 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-11 14:31 UTC | live-signal      | LONG-B   | ERX    | DO: LONG-B ERX | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-11 14:31 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-11 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+2.77% hit=60% t=+6.2
 2026-11-09 20:15 UTC | llm-trader      | BUY      | NVDA   | conf=8 entry=177.56 target=205.0 init_stop=168.69 (min(atr=8.635×2.5=21.59, 0.33×upside=9.06) | rescaled x1.00115 from fill 177.76 vs ref 177.56)
 2026-11-09 19:12 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=176.6 target=188.0 init_stop=172.31 (min(atr=8.635×2.5=21.59, 0.33×upside=3.76) | rescaled x0.99694 from fill 176.06 vs ref 176.60)
 2026-11-09 18:10 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=176.55 target=184.0 init_stop=174.21 (min(atr=8.635×2.5=21.59, 0.33×upside=2.46) | rescaled x1.00068 from fill 176.67 vs ref 176.55)
