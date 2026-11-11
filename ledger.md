@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-11 17:25 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=176.29 target=195.0 init_stop=169.99 (min(atr=8.669×2.5=21.67, 0.33×upside=6.17) | rescaled x0.99926 from fill 176.16 vs ref 176.29)
 2026-11-11 16:23 UTC | llm-trader      | BUY      | CHTR   | conf=6 entry=132.56 target=142.0 init_stop=129.8 (min(atr=6.522×2.5=16.30, 0.33×upside=3.12) | rescaled x1.00279 from fill 132.93 vs ref 132.56)
 2026-11-11 16:23 UTC | llm-trader      | BUY      | ARM    | conf=5 entry=203.26 target=220.0 init_stop=197.51 (min(atr=14.609×2.5=36.52, 0.33×upside=5.52) | rescaled x0.99882 from fill 203.02 vs ref 203.26)
 2026-11-11 16:22 UTC | llm-trader      | BUY      | TTD    | conf=6 entry=15.985 target=17.6 init_stop=15.38 (min(atr=0.814×2.5=2.04, 0.33×upside=0.53) | rescaled x0.99567 from fill 15.92 vs ref 15.98)
