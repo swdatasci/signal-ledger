@@ -7,6 +7,15 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-12 14:39 UTC | llm-trader      | BUY      | ARM    | conf=6 entry=198.44 target=215.0 init_stop=195.79 (min(atr=14.555×2.5=36.39, 0.33×upside=5.46) | rescaled x1.01456 from fill 201.33 vs ref 198.44)
+2026-11-12 14:31 UTC | live-signal      | LONG-B   | TQQQ   | DO: LONG-B TQQQ | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-12 14:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-12 14:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-12 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-12 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-12 14:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-12 14:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-12 14:31 UTC | live-signal      | LONG-B   | TXN    | DO: LONG-B TXN | conf=high exp=+3.15% hit=61% t=+7.2
 2026-11-11 20:35 UTC | llm-trader      | BUY      | TTD    | conf=4 entry=15.995 target=17.5 init_stop=15.5 (min(atr=0.814×2.5=2.04, 0.33×upside=0.50) | rescaled x0.99969 from fill 15.99 vs ref 15.99)
 2026-11-11 20:35 UTC | llm-trader      | BUY      | NVDA   | conf=5 entry=174.6284 target=195.0 init_stop=167.85 (min(atr=8.722×2.5=21.81, 0.33×upside=6.72) | rescaled x0.99964 from fill 174.56 vs ref 174.63)
 2026-11-11 20:34 UTC | llm-trader      | BUY      | ARM    | conf=6 entry=203.12 target=218.5 init_stop=198.44 (min(atr=14.899×2.5=37.25, 0.33×upside=5.08) | rescaled x1.00202 from fill 203.53 vs ref 203.12)
