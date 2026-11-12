@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-12 16:09 UTC | intraday-reversion | BUY      | PG     | O=169.04 entry=168.38 target=169.04 trail=$3.64
 2026-11-12 14:39 UTC | llm-trader      | BUY      | ARM    | conf=6 entry=198.44 target=215.0 init_stop=195.79 (min(atr=14.555×2.5=36.39, 0.33×upside=5.46) | rescaled x1.01456 from fill 201.33 vs ref 198.44)
 2026-11-12 14:31 UTC | live-signal      | LONG-B   | TQQQ   | DO: LONG-B TQQQ | conf=high exp=+3.35% hit=59% t=+4.3
 2026-11-12 14:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+3.35% hit=59% t=+4.3
