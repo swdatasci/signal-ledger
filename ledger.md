@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-13 16:55 UTC | llm-trader      | BUY      | ARM    | conf=5 entry=186.14 target=205.0 init_stop=178.27 (min(atr=15.060×2.5=37.65, 0.33×upside=6.22) | rescaled x0.99081 from fill 184.43 vs ref 186.14)
 2026-11-13 14:52 UTC | llm-trader      | BUY      | COF    | conf=6 entry=195.78 target=208.5 init_stop=192.33 (min(atr=6.317×2.5=15.79, 0.33×upside=4.20) | rescaled x1.00391 from fill 196.54 vs ref 195.78)
 2026-11-13 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+3.55% hit=59% t=+4.3
 2026-11-13 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+2.77% hit=60% t=+6.2
