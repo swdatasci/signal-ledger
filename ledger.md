@@ -7,6 +7,11 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-13 14:52 UTC | llm-trader      | BUY      | COF    | conf=6 entry=195.78 target=208.5 init_stop=192.33 (min(atr=6.317×2.5=15.79, 0.33×upside=4.20) | rescaled x1.00391 from fill 196.54 vs ref 195.78)
+2026-11-13 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-13 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-13 14:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-13 14:00 UTC | live-signal      | LONG-B   | FRIDAYxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.31%. | conf=high exp=+0.31% hit=59% t=+9.6
 2026-11-12 20:50 UTC | llm-trader      | BUY      | ARM    | conf=5 entry=199.46 target=215.0 init_stop=194.38 (min(atr=14.655×2.5=36.64, 0.33×upside=5.13) | rescaled x1.00025 from fill 199.51 vs ref 199.46)
 2026-11-12 20:49 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=164.78 target=175.0 init_stop=161.44 (min(atr=9.937×2.5=24.84, 0.33×upside=3.37) | rescaled x1.00018 from fill 164.81 vs ref 164.78)
 2026-11-12 19:47 UTC | llm-trader      | BUY      | AVGO   | conf=6 entry=347.35 target=372.0 init_stop=355.79 (min(atr=17.290×2.5=43.23, 0.33×upside=8.13) | rescaled x1.04886 from fill 364.32 vs ref 347.35)
