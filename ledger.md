@@ -7,6 +7,15 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-16 15:17 UTC | intraday-reversion | BUY      | BLK    | O=1212.05 entry=1206.45 target=1212.05 trail=$29.56
+2026-11-16 14:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-16 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-16 14:31 UTC | live-signal      | LONG-B   | TQQQ   | DO: LONG-B TQQQ | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-16 14:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-16 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-16 14:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-16 14:31 UTC | live-signal      | LONG-B   | TXN    | DO: LONG-B TXN | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-16 14:00 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
 2026-11-13 16:55 UTC | llm-trader      | BUY      | ARM    | conf=5 entry=186.14 target=205.0 init_stop=178.27 (min(atr=15.060×2.5=37.65, 0.33×upside=6.22) | rescaled x0.99081 from fill 184.43 vs ref 186.14)
 2026-11-13 14:52 UTC | llm-trader      | BUY      | COF    | conf=6 entry=195.78 target=208.5 init_stop=192.33 (min(atr=6.317×2.5=15.79, 0.33×upside=4.20) | rescaled x1.00391 from fill 196.54 vs ref 195.78)
 2026-11-13 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+3.55% hit=59% t=+4.3
