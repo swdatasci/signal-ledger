@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-16 16:02 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=158.92 target=175.0 init_stop=153.79 (min(atr=9.907×2.5=24.77, 0.33×upside=5.31) | rescaled x1.00120 from fill 159.11 vs ref 158.92)
 2026-11-16 15:17 UTC | intraday-reversion | BUY      | BLK    | O=1212.05 entry=1206.45 target=1212.05 trail=$29.56
 2026-11-16 14:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.55% hit=59% t=+4.3
 2026-11-16 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+3.55% hit=59% t=+4.3
