@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-16 17:04 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=158.79 target=168.0 init_stop=155.49 (min(atr=9.907×2.5=24.77, 0.33×upside=3.04) | rescaled x0.99830 from fill 158.52 vs ref 158.79)
 2026-11-16 16:34 UTC | intraday-reversion | BUY      | MRK    | O=147.9 entry=146.99 target=147.9 trail=$5.32
 2026-11-16 16:34 UTC | intraday-reversion | BUY      | KO     | O=99.94 entry=99.55 target=99.94 trail=$2.48
 2026-11-16 16:03 UTC | llm-trader      | BUY      | ABBV   | conf=5 entry=298.17 target=315.0 init_stop=292.68 (min(atr=6.927×2.5=17.32, 0.33×upside=5.55) | rescaled x1.00020 from fill 298.23 vs ref 298.17)
