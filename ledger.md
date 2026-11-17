@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-17 16:00 UTC | intraday-reversion | BUY      | AMZN   | O=257.27 entry=255.97 target=257.27 trail=$7.68
 2026-11-17 15:05 UTC | intraday-reversion | BUY      | UNP    | O=301.18 entry=298.58 target=301.18 trail=$8.48
 2026-11-17 14:31 UTC | live-signal      | LONG-B   | NKE    | DO: LONG-B NKE | conf=high exp=+3.35% hit=59% t=+4.3
 2026-11-17 14:31 UTC | live-signal      | LONG-B   | HD     | DO: LONG-B HD | conf=high exp=+2.77% hit=60% t=+6.2
