@@ -7,6 +7,11 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-17 15:05 UTC | intraday-reversion | BUY      | UNP    | O=301.18 entry=298.58 target=301.18 trail=$8.48
+2026-11-17 14:31 UTC | live-signal      | LONG-B   | NKE    | DO: LONG-B NKE | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-17 14:31 UTC | live-signal      | LONG-B   | HD     | DO: LONG-B HD | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-17 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-17 14:31 UTC | live-signal      | LONG-B   | UNH    | DO: LONG-B UNH | conf=high exp=+2.77% hit=60% t=+6.2
 2026-11-16 20:09 UTC | llm-trader      | BUY      | ARM    | conf=5 entry=176.59 target=192.0 init_stop=171.76 (min(atr=15.435×2.5=38.59, 0.33×upside=5.09) | rescaled x1.00153 from fill 176.86 vs ref 176.59)
 2026-11-16 20:09 UTC | llm-trader      | BUY      | NVDA   | conf=6 entry=155.82 target=175.0 init_stop=149.65 (min(atr=10.128×2.5=25.32, 0.33×upside=6.33) | rescaled x1.00109 from fill 155.99 vs ref 155.82)
 2026-11-16 19:07 UTC | llm-trader      | BUY      | ARM    | conf=5 entry=176.5 target=192.0 init_stop=171.78 (min(atr=15.435×2.5=38.59, 0.33×upside=5.12) | rescaled x1.00235 from fill 176.91 vs ref 176.50)
