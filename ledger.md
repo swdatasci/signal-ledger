@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-18 15:24 UTC | intraday-reversion | BUY      | ABBV   | O=290.0 entry=288.61 target=290.0 trail=$10.2
 2026-11-18 15:08 UTC | intraday-reversion | BUY      | MA     | O=643.1 entry=638.44 target=643.1 trail=$16.16
 2026-11-18 15:04 UTC | intraday-reversion | BUY      | MO     | O=76.94 entry=76.63 target=76.94 trail=$1.76
 2026-11-18 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.15% hit=61% t=+7.2
