@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-19 16:40 UTC | intraday-reversion | BUY      | MSFT   | O=519.5 entry=514.51 target=519.5 trail=$27.96
 2026-11-19 15:06 UTC | intraday-reversion | BUY      | MA     | O=637.05 entry=634.95 target=637.05 trail=$16.04
 2026-11-19 14:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.35% hit=59% t=+4.3
 2026-11-19 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.35% hit=59% t=+4.3
