@@ -7,6 +7,7 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-23 15:27 UTC | intraday-reversion | BUY      | COST   | O=1090.52 entry=1086.39 target=1090.52 trail=$29.88
 2026-11-23 15:05 UTC | intraday-reversion | BUY      | MO     | O=73.81 entry=73.17 target=73.81 trail=$2.2
 2026-11-23 14:31 UTC | live-signal      | LONG-B   | AMZN   | DO: LONG-B AMZN | conf=high exp=+3.35% hit=59% t=+4.3
 2026-11-23 14:31 UTC | live-signal      | LONG-B   | HON    | DO: LONG-B HON | conf=high exp=+3.15% hit=61% t=+7.2
