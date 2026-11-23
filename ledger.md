@@ -7,6 +7,41 @@ Format: `YYYY-MM-DD HH:MM UTC | [strategy] | [action] | ticker | notes`
 
 ## Events
 
+2026-11-23 15:05 UTC | intraday-reversion | BUY      | MO     | O=73.81 entry=73.17 target=73.81 trail=$2.2
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | AMZN   | DO: LONG-B AMZN | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | HON    | DO: LONG-B HON | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | META   | DO: LONG-B META | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | BLK    | DO: LONG-B BLK | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | GOOGL  | DO: LONG-B GOOGL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | FAS    | DO: LONG-B FAS | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | GE     | DO: LONG-B GE | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | CSCO   | DO: LONG-B CSCO | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | MSFT   | DO: LONG-B MSFT | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | QCOM   | DO: LONG-B QCOM | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | CAT    | DO: LONG-B CAT | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | MS     | DO: LONG-B MS | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | NFLX   | DO: LONG-B NFLX | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | ORCL   | DO: LONG-B ORCL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | AVGO   | DO: LONG-B AVGO | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | TQQQ   | DO: LONG-B TQQQ | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | TSLA   | DO: LONG-B TSLA | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | GS     | DO: LONG-B GS | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | TMO    | DO: LONG-B TMO | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | AMZY   | DO: LONG-B AMZY | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | NVDA   | DO: LONG-B NVDA | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | UNH    | DO: LONG-B UNH | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | WFC    | DO: LONG-B WFC | conf=high exp=+3.15% hit=61% t=+7.2
+2026-11-23 14:31 UTC | live-signal      | LONG-B   | TXN    | DO: LONG-B TXN | conf=high exp=+3.35% hit=59% t=+4.3
+2026-11-23 14:04 UTC | live-signal      | LONG-B   | POST-OPEXxBULL | DO: BUY SPY at open, SELL at close. Expected ~+0.46%. Strong signal, act on it. | conf=high exp=+0.46% hit=63% t=+8.7
+2026-11-23 14:04 UTC | live-signal      | LONG-B   | MONDAYxBULL | DO: BUY SPY at open (favor a gap-down open — the ideal setup), SELL at close. Expected ~+0.22%. | conf=high exp=+0.22% hit=56% t=+8.7
+2026-11-20 14:31 UTC | live-signal      | LONG-B   | AMD    | DO: LONG-B AMD | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-20 14:31 UTC | live-signal      | LONG-B   | TECL   | DO: LONG-B TECL | conf=high exp=+2.77% hit=60% t=+6.2
+2026-11-20 14:31 UTC | live-signal      | LONG-B   | SOXL   | DO: LONG-B SOXL | conf=high exp=+3.55% hit=59% t=+4.3
+2026-11-20 14:31 UTC | live-signal      | LONG-B   | TQQQ   | DO: LONG-B TQQQ | conf=high exp=+2.77% hit=60% t=+6.2
 2026-11-19 16:40 UTC | intraday-reversion | BUY      | MSFT   | O=519.5 entry=514.51 target=519.5 trail=$27.96
 2026-11-19 15:06 UTC | intraday-reversion | BUY      | MA     | O=637.05 entry=634.95 target=637.05 trail=$16.04
 2026-11-19 14:31 UTC | live-signal      | LONG-B   | INTC   | DO: LONG-B INTC | conf=high exp=+3.35% hit=59% t=+4.3
